@@ -1,12 +1,16 @@
 /* 
- 	Program: Make a program that reads a value in euros and the dollar exchange rate. Next, show the amount in euros converted into dollars 
+ 	Program: Make a program that reads a value in euros and the dollar 
+  	exchange rate. Next, show the amount in euros converted into dollars.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/* First of all, we have to include the library which contains the function that will print the information on the screen. Next, start creating the 
-variables for the euros, dollar exchange rate (der) and the answer (division between euros and der), after all, print on the screen the answer*/
+/* 
+   	First of all, we have to include the library which contains the function that
+  	will print the information on the screen. Next, start creating the variables 
+	for the euros, dollar exchange rate (der) and the answer (division between euros
+ 	and der), after all, print on the screen the answer 
+*/
 
 #include<stdio.h>
 
