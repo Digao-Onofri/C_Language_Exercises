@@ -1,5 +1,5 @@
 /* 
- 	Program: Make a program that reads a value in euros and the dollar 
+ 	Example: Make a program that reads a value in euros and the dollar 
   	exchange rate. Next, show the amount in euros converted into dollars.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
