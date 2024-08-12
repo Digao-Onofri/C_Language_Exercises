@@ -5,7 +5,8 @@
  	
 */
 
-/* Firt of all, we have to include the library which contains the function that will print the information on the screen. Next, start creating the variables for the euros, dollar exchange rate (der) and the answer (division between euros and der), after all, print on the screen the answer*/
+/* First of all, we have to include the library which contains the function that will print the information on the screen. Next, start creating the 
+variables for the euros, dollar exchange rate (der) and the answer (division between euros and der), after all, print on the screen the answer*/
 
 #include<stdio.h>
 
@@ -20,7 +21,7 @@ int main() {
 	scanf("%f", &dollars);	
 	answer = euros / dollars;
 	
-	printf("Your amount of dollars are %.2f\n", answer);
+	printf("Your amount of dollars are: %.2f\n", answer);
 
 	return 0;
 }
