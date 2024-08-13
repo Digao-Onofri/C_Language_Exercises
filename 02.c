@@ -2,7 +2,7 @@
  	Example: Make a program to calculate the discount value of a product paid in cash. The
  	program should read the normal price and the discount percentage (integer
  	between 0 and 100). Print the new price with the discount redution.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/1WWHjI7ugKc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
 */
 
