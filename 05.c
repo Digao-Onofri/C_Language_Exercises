@@ -1,7 +1,7 @@
 /*
 	Example: Write a program that reads an integer and displays, as an answer, the sum of it 	
 	cube root with it fourth root. Consider two decimal places.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/KTLnp6uXmhc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
