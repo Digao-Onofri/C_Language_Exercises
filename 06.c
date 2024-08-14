@@ -6,7 +6,7 @@
  	are the measurements of the sides and p is the semiperimeter (half of the perimeter). Write 
  	a program that reads the measurements of the sides of the triangle and shows the value of 
  	its area.
- 	Youtube lesson:  
+ 	Youtube lesson:  https://youtu.be/VBPunoTIwA8
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
