@@ -5,7 +5,7 @@
  	per mile traveled. Make a program that reads the number of miles to be covered and the 
  	amount of car rental days. Afterwards, show the lowest price between the two agencies as 
  	an answer.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/v_Qw6UEEwSw
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
