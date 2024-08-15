@@ -2,7 +2,7 @@
 
  	Example: Make a program that reads the angle value, in degress, and show, the values of sin, 
  	cos and tan.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/3tRaUx6Akrw
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
