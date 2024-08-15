@@ -3,7 +3,7 @@
  	Example: Write a program that reads three values, representing age in years, months and 	
  	days, respectively. Next, show the number of days this person lived. Consider that every 
  	year will have 365 days, and the months 30 days.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/bLSAetZGhgE
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
