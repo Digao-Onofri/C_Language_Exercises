@@ -18,7 +18,7 @@ int main() {
 	printf("Enter the radius value: ");
 	scanf("%f", &radius);
 	
-	printf("The sphere capacity is: %.2f\n", (4 * acos(-1) * radius * 3) / 3);
+	printf("The sphere capacity is: %.2f\n", (4 * acos(-1) * pow(radius,3) / 3);
 
 	return 0;
 }
