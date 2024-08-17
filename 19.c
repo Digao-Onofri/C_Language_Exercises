@@ -3,7 +3,7 @@
  	Example: A machine needs 17 seconds to make a part. Make a program that reads the number of parts 
   	that will need to be manufactured, and shows the time in hours, minutes and seconds that will be 
    	needed to produce them..
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/4W6w65Q7tlg
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
