@@ -3,7 +3,7 @@
  	Example: The sphere capacity is calculate by the following formula v =(4*pi*r*3) / 3, which 
  	r is the radius. Make program that reads the radius value, calculate and print the sphere 
  	capacity.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/64uDv3X4NS8
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
