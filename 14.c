@@ -3,7 +3,7 @@
  	Example: A hotel contains 80 rooms and wants to run a special vacation promotion, which 
  	give a percentage of 25% of the daily rental value. Make a program that reads the normal 	
  	price, calculate and print the rental sale value.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/VaY2SNbgRi4
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
