@@ -3,8 +3,7 @@
  	Example: To light a room, a power of 18W is required per m2. Write a program that reads the 
  	dimensions of the room in meters, and calculates the area in m2. Next, show the amount of 
  	power in watt this room will need to illuminate correctly
- 	
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/4YGXeVsZk-Y
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
