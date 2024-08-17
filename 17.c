@@ -4,7 +4,7 @@
  	Make a program that reads the total hours of this subject and the number of absense hours . 	
  	Next, show the percentage of absences from classes for this student (integer between 0 and 
  	100).
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/04xCsyrPmTk
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
