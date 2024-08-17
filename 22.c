@@ -1,15 +1,9 @@
 /*
 
  	Example: Write a program that reads 5 values and print the smallest
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/M-rIRe7h7NM
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
