@@ -2,7 +2,7 @@
 
  	Example: With only two variables, make a program that read three values and calculates their
  	average.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/tjSaMHbafJE
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
