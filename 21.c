@@ -1,15 +1,9 @@
 /*
 
  	Example: Write a program that reads two values ​​and displays the smallest
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Yw_DuY44zYI
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
