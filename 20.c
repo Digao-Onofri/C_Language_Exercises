@@ -2,7 +2,7 @@
 
  	Example: A teacher receives $50 for each class. Write a program that reads the number of 
  	classes taken and shows your earnings with a 27% tax reduction.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/9GEkRe-Qt9A
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
