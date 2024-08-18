@@ -25,7 +25,7 @@ int main() {
 	printf("Enter loan payment amount: ");
 	scanf("%f", &loan);
 	
-	if((salary * 20) / 100.0 < loan){
+	if((salary * 20) / 100.0 <= loan){
 		printf("Loan not granted\n");
 	}
 	else {
