@@ -18,28 +18,24 @@
 
 int main() {
 	int a, b, c;
-	int root1, root2;
+	float root1, root2, delta;
 	
 	printf("Enter the value of a, b and c:\n");
 	scanf("%d %d %d", &a, &b, &c);
 	
-	root1 = (-b + (sqrt(pow(b,2) - 4 * a * c))) / 2 * a;
-	root2 = (-b - (sqrt(pow(b,2) - 4 * a * c))) / 2 * a;
+	delta = pow(b,2) - (4 * a * c);
+	root1 = ((-1 * b) - sqrt(delta)) / 2 * a;
+	root2 = ((-1 * b) + sqrt(delta)) / 2 * a;
 	
-	if(root1 != 0 && root2 != 0) {
-		printf("root 1: %d\nroot 2: %d\n", root1, root2);
+	if(delta > 0){
+		printf("The Bhaskara will have two real roots %.2f and %.2f\n", root1, root2);
 	}
-	else if(root1 != 0 && root2 == 0){
-		printf("root 1: %d\n", root1);
-	}
-	else if(root1 == 0 && root2 != 0){
-		printf("root 2: %d\n", root2);
+	else if(delta == 0) {
+		printf("The Bhaskara will have one real root %.2f\n", root1);
 	}
 	else {
-		printf("No real roots\n");
+		printf("The Bhaskara will have no real roots\n");
 	}
-
-
 
 	return 0;
 }
