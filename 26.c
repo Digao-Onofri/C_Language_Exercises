@@ -1,8 +1,8 @@
 /*
 
  	Example: Make a program that reads the worker's salary and the loan payment amount. If the
- 	payment is more than, or equal to, 20% of the worker's salary, display the message: “loan not granted”. 
- 	Otherwise, show the message: “loan granted”.
+ 	payment is more than, or equal to, 20% of the worker's salary, display the message: “loan 
+  	not granted”. Otherwise, show the message: “loan granted”.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
