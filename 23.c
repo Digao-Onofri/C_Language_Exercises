@@ -2,15 +2,9 @@
 
  	Example: Write a program that reads an integer value, and if that number is positive, 
  	calculate its square root. If it is a negative number, calculate its square.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/6-h0fskAXJs
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
