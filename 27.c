@@ -3,15 +3,9 @@
  	Example: Each country has its own taxes included in the product price. Write a program 	
  	which reads the value of the product and the acronym of the country to see the price of the 
  	products with taxes
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Dx675vspTgY
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
