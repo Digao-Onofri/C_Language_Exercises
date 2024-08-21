@@ -2,15 +2,9 @@
 
  	Example: Write a program that solves a quadratic equation, in the form: a* x^2 + b * x 
  	+ c = 0. If the equation does not have real roots, print the message “no real roots”.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/QwB9EIuXeI8
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
