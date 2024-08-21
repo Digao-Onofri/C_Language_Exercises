@@ -3,15 +3,9 @@
  	Example: Make a program that reads the worker's salary and the loan payment amount. If the
  	payment is more than, or equal to, 20% of the worker's salary, display the message: “loan 
   	not granted”. Otherwise, show the message: “loan granted”.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/U4Pp_QQj5R0
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
