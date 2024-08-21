@@ -4,15 +4,9 @@
  	grades are valid. A valid grade is a grade between 0 and 10. If the grades are correct, 
  	calculate the average between them. If the grades are not validated, print the message 
  	"Invalid value of the grades".
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Sp3kjGhH-2w
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
