@@ -2,15 +2,9 @@
 
  	Example: Write a program that reads an integer value and calculates whether the value 
  	multiple of 11. If it is a multiple, print yes. Otherwise, print no.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/LlIh3Jx7gj4
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
