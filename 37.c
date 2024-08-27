@@ -25,7 +25,7 @@ int main()
 	printf("Enter the three side values of the box:\n");
 	scanf("%f %f %f", &lenght, &height, &depth);
 	
-	if(diameter < lenght || diameter < height || diameter < depth){
+	if(diameter <= lenght && diameter <= height && diameter <= depth){
 		printf("fits on the box\n");	
 	}
 	else {
