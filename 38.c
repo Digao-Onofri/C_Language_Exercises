@@ -1,6 +1,6 @@
 /*
 
- 	Example: Write a program that reads an integer value N and prints a countdown from N to 0.
+ 	Example: Write a program that reads an integer value N and prints a countdown from N to 1.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -17,7 +17,7 @@ int main()
 {
 	int N, i;
 	
-	printf("Enter an entire number:\n");
+	printf("Enter an integer number:\n");
 	scanf("%d", &N);
 	
 	i = 1;
