@@ -18,7 +18,7 @@ int main()
 {
 	int n, i;
 	
-	printf("Enter an entire number:\n");
+	printf("Enter an integer number:\n");
 	scanf("%d", &n);
 	
 	i = 1;
