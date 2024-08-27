@@ -20,7 +20,7 @@ int main()
 	int N, i;
 	
 	do {
-		printf("Enter an entire number:\n");
+		printf("Enter an integer number:\n");
 		scanf("%d", &N);
 	}while( N <= 0 );
 	
