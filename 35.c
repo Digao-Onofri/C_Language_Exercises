@@ -2,7 +2,7 @@
 
  	Example: Write a program that checks whether the number read is divisible by 3 or 5, but not 	
  	by both.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/8N4DMAc0zHY
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
