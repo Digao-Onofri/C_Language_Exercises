@@ -2,7 +2,7 @@
 
  	Example: Write a program that reads the length of three sides of the triangle and displays 
  	the type of the triangle. Equilateral, isosceles or scalene.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/3Aui7UoFiwI
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
