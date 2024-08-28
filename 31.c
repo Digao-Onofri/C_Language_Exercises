@@ -3,7 +3,7 @@
  	Example: Write a program that reads the worker's age and working time and then shows whether 
  	he could rest. The conditions for rest are: Being at least 65 years old or working for 30 
  	years or being at least 60 years old and working for 25 years.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/VEs7ubfiW0U
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
