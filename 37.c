@@ -2,7 +2,7 @@
 
  	Example: Write a program that reads the diameter of a ball and three dimensions of a 
  	box (height, length, depth). Print whether the ball fits in the box.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/OahxFdsZ7Ro
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
