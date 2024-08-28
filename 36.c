@@ -1,8 +1,8 @@
 /*
 
- 	Example: Write a program, which read the age, the gender and say if this person will growth
- 	more.  
- 	Youtube lesson: 
+ 	Example: Write a program, which read the age, the gender and say if this person will
+  	grow up more.  
+ 	Youtube lesson: https://youtu.be/iRsH2Sb-vlU
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
