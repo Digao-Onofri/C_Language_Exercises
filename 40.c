@@ -1,15 +1,9 @@
 /*
 
  	Example: Write a program which reads an integer N and show the first N odd numbers.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Bnn3oJLpZ7s
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
