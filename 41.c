@@ -7,13 +7,6 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 //start of the program
 int main()
@@ -24,7 +17,7 @@ int main()
 	sum = 0;
 	
 	do {	
-		printf("Enter an entire number:\n");
+		printf("Enter an integer number:\n");
 		scanf("%d", &n);
 			
 	}while(n < 0);
