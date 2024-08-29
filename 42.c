@@ -6,23 +6,18 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
 	int n, x, i, aux;
 	
-	printf("Enter two entire numbers:\n");
-	scanf("%d %d", &n, &x);
+	printf("Enter the value of N:\n");
+	scanf("%d", &n);
+
+	printf("Enter the value of X:\n");
+	scanf("%d", &x);
 	
-	printf("Multiples of X are: ");	
+	printf("Tje first %d multiples of X are: ", n);	
 	
 	for(i = 1, aux = 1; i <= x; i++){
 		if(x % i == 0 && aux <= n){
