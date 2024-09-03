@@ -17,7 +17,7 @@ int main()
 	printf("Enter the value of X:\n");
 	scanf("%d", &x);
 	
-	printf("Tje first %d multiples of X are: ", n);	
+	printf("The first %d multiples of X are: ", n);	
 	
 	for(i = 1, aux = 1; i <= x; i++){
 		if(x % i == 0 && aux <= n){
