@@ -2,7 +2,7 @@
 
  	Example: Write a program that reads two integers N and X. Next, show what are the first N
  	natural numbers that are multiples of X. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/XKBKmk-r5_o
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
