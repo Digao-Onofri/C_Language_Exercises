@@ -1,7 +1,7 @@
 /*
 
  	Example: Write a program that reads a positive integer N and show it divisors.
- 	Youtube lesson: https://youtu.be/1xljWPRYfTI
+ 	Youtube lesson: https://youtu.be/WHH22CbSfM0
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
