@@ -2,18 +2,10 @@
 
  	Example: Write a program, which reads two integers N and X and print sum of the 
  	multiples of X smaller than N.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/c_mBm4IDNNQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
