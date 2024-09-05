@@ -18,14 +18,14 @@
 //start of the program
 int main()
 {
-	int n, i, x = 1, sum;
+	int n, i, signal = 1, sum;
 
 	printf("Enter an integer:\n");
 	scanf("%d", &n);
 	
 	for(i = 0; i <= n; i++){
-		x *= -1;
-		sum = sum + (i * x);
+		signal *= -1;
+		sum = sum + (i * signal);
 	}
 
  	printf("The sum of the sequence is: %d\n", sum);
