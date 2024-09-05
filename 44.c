@@ -1,18 +1,10 @@
 /*
 
  	Example: Write a program that reads a positive integer N and show it divisors.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/1xljWPRYfTI
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
