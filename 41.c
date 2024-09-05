@@ -3,7 +3,7 @@
  	Example: Write a program, which reads a positive integer N and calculates de sum of the 
  	first N numbers. If the program reads a negative value, keep asking for an integer until
  	the number is positive.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/OJgNFPzcllQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
