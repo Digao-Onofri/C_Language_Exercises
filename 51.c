@@ -18,15 +18,15 @@
 #include<stdio.h>
 int main()
 {
-	int n, i, x;
-	float sum, y = 1;
+	int integer, numerator, x;
+	float sum, denominator = 1;
 	
 	printf("Enter an integer:\n");
-	scanf("%d", &n);
+	scanf("%d", &integer);
 	
-	for (i = 0, x = 1; x <= n; i += 2, x++){
-		sum = sum + ( i / y );
-		y *= 2;
+	for (numerator = 0, x = 1; x <= n; numerator += 2, x++){
+		sum = sum + ( numerator / denominator );
+		denominator *= 2;
 	}
  	
  	printf("The sum of the sequence is: %.2f\n", sum);
