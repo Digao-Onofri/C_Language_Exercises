@@ -4,7 +4,6 @@
  	Youtube lesson: https://youtu.be/IAvfEo8CkWc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
 */
-
 #include<stdio.h>
 
 int main() {
