@@ -18,13 +18,13 @@
 #include<stdio.h>
 int main()
 {
-	int integer, numerator, x;
+	int integer, numerator, control;
 	float sum, denominator = 1;
 	
 	printf("Enter an integer:\n");
 	scanf("%d", &integer);
 	
-	for (numerator = 0, x = 1; x <= n; numerator += 2, x++){
+	for (numerator = 0, control = 1; control <= integer; numerator += 2, control++){
 		sum = sum + ( numerator / denominator );
 		denominator *= 2;
 	}
