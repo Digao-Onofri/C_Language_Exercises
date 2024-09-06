@@ -18,16 +18,16 @@
 #define MAX 10
 int main()
 {
-	int n[MAX], i, even;
+	int vector[MAX], i, even;
 	
 	printf("Enter 10 integers:\n");
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%d", &n[i]);
+		scanf("%d", &vector[i]);
 	}
 	
 	for(i = 0, even = 0; i < MAX; i++){
-		if(n[i] % 2 == 0){
+		if(vector[i] % 2 == 0){
 			even++;
 		}
 	}

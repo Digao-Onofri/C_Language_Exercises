@@ -18,22 +18,22 @@
 #include<stdio.h>
 int main()
 {
-	int n, i, x, flag;
+	int integer, i, control, signal;
 	float sum, den;
 	
 	printf("Enter an integer:\n");
-	scanf("%d", &n);
+	scanf("%d", &integer);
 	
-	x = 1;
-	flag = 1;
+	control = 1;
+	signal = 1;
 	den = 1;
 	sum = 0;
 	
-	for (i = 1; x <= n; i += 2, x++){
-        	sum = sum +  (flag * (i / den) );
+	for (i = 1; control <= integer; i += 2, control++){
+        	sum = sum + (signal * (i / den) );
         	den++;
-       		if(x % 2 == 0){
-      			flag = -flag;
+       		if(control % 2 == 0){
+      			signal *= -1;
 		}
 	}
 	

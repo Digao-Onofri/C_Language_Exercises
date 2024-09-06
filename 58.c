@@ -18,18 +18,18 @@
 #define MAX 6
 int main()
 {
-	int n[MAX], i;
+	int vector[MAX], i;
 
 	printf("Enter the 6 integer values:\n");
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%d", &n[i]);
+		scanf("%d", &vector[i]);
 	}
 	
 	printf("The reverse of the vector is:\n");
 	
 	for(i = MAX - 1; i >= 0; i--){
-		printf("%d ", n[i]);
+		printf("%d ", vector[i]);
 	}
 	
 	printf("\n");

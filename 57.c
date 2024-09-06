@@ -18,24 +18,24 @@
 #define MAX 10
 int main()
 {
-	int n[MAX], i, largest, smallest;
+	int vector[MAX], i, largest, smallest;
 	
 	printf("Enter 10 integers:\n");
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%d", &n[i]);
+		scanf("%d", &vector[i]);
 	}
 	
-	largest = n[0];
-	smallest = n[0];
+	largest = vector[0];
+	smallest = vector[0];
 	
 	
 	for(i = 0; i < MAX; i++){
-		if(largest < n[i]){
-			largest = n[i];
+		if(largest < vector[i]){
+			largest = vector[i];
 		}
-		if(smallest > n[i]){
-			smallest = n[i];
+		if(smallest > vector[i]){
+			smallest = vector[i];
 		}
 	}
 	

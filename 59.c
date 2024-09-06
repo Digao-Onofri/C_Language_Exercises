@@ -17,16 +17,16 @@
 int main()
 {
 	int i;
-	float n[MAX], sum = 0;
+	float vector[MAX], sum = 0;
 	
 	printf("Enter the grades:\n");
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%f", &n[i]);
+		scanf("%f", &vector[i]);
 	}	
 	
 	for(i = 0; i < MAX; i++){
-		sum = sum + n[i];
+		sum = sum + vector[i];
 	}
 		
 	printf("The average of the grades is: %.2f\n", sum / MAX);

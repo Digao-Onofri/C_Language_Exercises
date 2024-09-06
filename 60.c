@@ -20,17 +20,17 @@
 int main()
 {
 	int i;
-	float n[MAX], sum;
+	float vector[MAX], sum;
 	
 	printf("Enter 10 real values: \n");
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%f",&n[i]);
+		scanf("%f",&vector[i]);
 	}
 	
 	for(i = 0; i < MAX; i++){
-		if(n[i] >= 0) {
-			sum = sum + n[i];	
+		if(vector[i] >= 0) {
+			sum = sum + vector[i];	
 		}
 	}
 	

@@ -16,7 +16,6 @@
 
 #include<stdio.h>
 #define MAX 10
-//start of the program
 int main()
 {
 	int a[MAX], b[MAX], i;
@@ -26,6 +25,8 @@ int main()
 	for(i = 0; i < MAX; i++){
 		scanf("%d", &a[i]);
 	}
+	
+	printf("The square of those values are: \n");
 	
 	for(i = 0; i < MAX; i++){
 		b[i] = a[i] * a[i];
