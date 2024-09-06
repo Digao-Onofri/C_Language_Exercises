@@ -2,18 +2,10 @@
 
  	Example:  Make a program that reads an unknown number of integer values and shows your 
  	average, with 1 decimal. The program should stop reading when a negative value is entered. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/DFKPFT5j2bg
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
