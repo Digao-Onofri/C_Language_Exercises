@@ -4,18 +4,10 @@
  	of the sum by the sum of the squares of the first X natural numbers. Example: Let X = 10: 
  	Square of sum: (1 + 2 + ... + 10)2 = (55)2 = 3025 Sum of squares: (12 + 22 + ... + 102) = 
  	385 Difference: 3025 – 385 = 2640 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/2qbsjk3TMJ0
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<math.h>
 int main()
