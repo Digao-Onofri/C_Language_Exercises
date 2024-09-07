@@ -8,10 +8,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-
 #include<stdio.h>
-
 int main() {	
 	int total_hours, absense_hours;
 	
