@@ -2,18 +2,10 @@
 
  	Example:  Make a program that reads 10 integers and stores them in a vector A. Then, in a 
  	vector B, store them the square of each element present in A. Next, print the vector B.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/sHV4jWAPdAQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 10
 int main()
