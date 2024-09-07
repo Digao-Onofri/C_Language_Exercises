@@ -6,10 +6,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-
 #include<stdio.h>
-
 int main() {
 	int v1, v2;
 	
