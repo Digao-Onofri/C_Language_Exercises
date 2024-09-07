@@ -20,7 +20,7 @@ int main()
 {
 	int vector[MAX], i, largest, smallest;
 	
-	printf("Enter 10 integers:\n");
+	printf("Enter %d integers:\n", MAX);
 	
 	for(i = 0; i < MAX; i++){
 		scanf("%d", &vector[i]);
