@@ -5,10 +5,8 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
 #define MAX 5
-
 int main() {
 	int v[MAX];
 	int i, smallest;
