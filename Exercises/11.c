@@ -7,10 +7,8 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
 #include<math.h>  //pi = M_PI or acos(-1)
-
 int main() {
 	float radius, height;
 
