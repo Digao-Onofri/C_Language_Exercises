@@ -8,7 +8,6 @@
  	
 */
 #include<stdio.h>
-
 int main() {
 	int parts, time_parts, time_hours, time_minutes, time_seconds;
 	
