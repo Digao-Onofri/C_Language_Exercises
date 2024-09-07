@@ -7,10 +7,8 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
 #include<string.h>
-
 int main() { 
 	float price;
 	char acronym[4];
