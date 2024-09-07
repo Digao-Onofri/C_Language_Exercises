@@ -1,6 +1,6 @@
 /*
 
- 	Example: Write a progam, that reads 6 integer values and stores them in a vector. Next, 
+ 	Example: Write a program, that reads 6 integer values and stores them in a vector. Next, 
  	print the reverse of the vector.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
