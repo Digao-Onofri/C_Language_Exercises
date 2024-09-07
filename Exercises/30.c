@@ -6,10 +6,8 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
 #include<math.h>
-
 int main() {
 	int a, b, c;
 	float root1, root2, delta;
