@@ -1,6 +1,6 @@
 /*
 
- 	Example:  Make a program that reads 6 integer values and stores them in an array. 
+ 	Example:  Make a program that reads 6 integer values and stores them in the array. 
  	Youtube lesson: https://youtu.be/q54nSV9olBA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
