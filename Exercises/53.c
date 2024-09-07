@@ -1,18 +1,10 @@
 /*
 
  	Example:  Make a program that reads 6 integer values and stores them in a vector. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/q54nSV9olBA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 6
 int main()
