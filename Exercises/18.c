@@ -7,10 +7,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-
 #include<stdio.h>
-
 int main() {
 	float sidea, sideb, m2, watt;
 	
