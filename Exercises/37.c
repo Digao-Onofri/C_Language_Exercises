@@ -4,7 +4,7 @@
  	box (height, length, depth). Print whether the ball fits in the box.
  	Youtube lesson: https://youtu.be/OahxFdsZ7Ro
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
- 	
+ 	 
 */
 #include<stdio.h>
 #include<math.h>
