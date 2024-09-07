@@ -1,19 +1,11 @@
 /*
 
-	Example: Write a program that reads 10 integers and stores them in a vector. Next, print the 
- 	largest and smallest values ​​in the vector. 
- 	Youtube lesson: 
+	Example: Write a program that reads 10 integers and stores them in an array. Next, print the 
+ 	largest and smallest values ​​in the array. 
+ 	Youtube lesson: https://youtu.be/0QgivxtJ5GQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 10
 int main()
