@@ -2,18 +2,10 @@
 
  	Example: Write a program, which reads 10 real values and stores them in a array. Next, 
  	search for positive numbers and calculate their sum.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/4uKIYXRBQso
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 10
 //start of the program
