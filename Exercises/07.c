@@ -8,9 +8,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
-
 int main() {
 	float cost, finalvalue;
 	
