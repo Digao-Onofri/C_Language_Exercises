@@ -2,16 +2,9 @@
 
  	Example: Write a program that reads 10 notes (real values) and stores them in a 
  	array. Next, print the average of the grades.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/QFGPSh3YXqo
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
 */
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 10
 int main()
