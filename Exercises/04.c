@@ -9,9 +9,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
-
 int main() {
 	int days, miles;
 	float agency1, agency2;
