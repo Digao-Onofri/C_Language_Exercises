@@ -4,6 +4,7 @@
  	array. Next, print the average of the grades.
  	Youtube lesson: https://youtu.be/QFGPSh3YXqo
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
+  
 */
 #include<stdio.h>
 #define MAX 10
