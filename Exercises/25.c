@@ -8,9 +8,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
-
 int main() {
 	float g1, g2;
 	
