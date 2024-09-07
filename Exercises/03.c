@@ -7,10 +7,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-
 #include<stdio.h>
-
 int main() {
 	int drops = 5;
 	float kg, answer;
