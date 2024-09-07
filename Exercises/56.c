@@ -1,6 +1,6 @@
 /*
 
- 	Example: Write a program that reads 10 integers and stores them in a vector. Count how much
+ 	Example: Write a program that reads 10 integers and stores them in a array. Count how much
  	even numbers that this vector has.
  	Youtube lesson: https://youtu.be/WpYiV-72AsA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
