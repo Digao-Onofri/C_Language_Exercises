@@ -1,7 +1,7 @@
 /*
 
- 	Example:  Make a program that reads 10 integers and stores them in a vector A. Then, in a 
- 	vector B, store them the square of each element present in A. Next, print the vector B.
+ 	Example:  Make a program that reads 10 integers and stores them in a array A. Then, in a 
+ 	array B, store them the square of each element present in A. Next, print the array B.
  	Youtube lesson: https://youtu.be/sHV4jWAPdAQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
