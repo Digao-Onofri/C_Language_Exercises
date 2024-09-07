@@ -1,7 +1,7 @@
 /*
 
  	Example: Write a program that reads 10 notes (real values) and stores them in a 
- 	vector. Next, print the average of the grades.
+ 	array. Next, print the average of the grades.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
 */
