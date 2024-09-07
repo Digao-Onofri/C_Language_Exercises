@@ -5,9 +5,7 @@
  	Youtube lesson: https://youtu.be/1WWHjI7ugKc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
 */
-
 #include<stdio.h>
-
 int main() {
 	float price, answer;
 	int percentage;
