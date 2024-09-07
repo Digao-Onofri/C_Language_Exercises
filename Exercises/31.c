@@ -7,9 +7,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
-//start of the program
 int main()
 {
 	int age, years_working;
