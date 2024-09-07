@@ -7,9 +7,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
 
 */
-
 #include<stdio.h>
-
 int main() {
 	int days_lived;
 	int years, months, days;
