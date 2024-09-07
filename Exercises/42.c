@@ -4,7 +4,7 @@
  	natural numbers that are multiples of X. 
  	Youtube lesson: https://youtu.be/XKBKmk-r5_o
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
- 	
+ 	 
 */
 #include<stdio.h>
 int main()
