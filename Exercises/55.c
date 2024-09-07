@@ -1,7 +1,7 @@
 /*
 
- 	Example:  Make a program that reads 8 integers and stores them in a vector. Next, read two 
- 	integers X and Y. At the end, show the sum of the vector elements that are in the X and Y 
+ 	Example:  Make a program that reads 8 integers and stores them in a array. Next, read two 
+ 	integers X and Y. At the end, show the sum of the array elements that are in the X and Y 
  	positions.
  	Youtube lesson: https://youtu.be/LSkDeMFZzwA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
