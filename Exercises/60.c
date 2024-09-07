@@ -22,7 +22,7 @@ int main()
 	int i;
 	float vector[MAX], sum;
 	
-	printf("Enter 10 real values: \n");
+	printf("Enter %d real values: \n", MAX);
 	
 	for(i = 0; i < MAX; i++){
 		scanf("%f",&vector[i]);
@@ -34,7 +34,7 @@ int main()
 		}
 	}
 	
-	printf("Sum of the positive numbers in vector: %.2f\n", sum);
+	printf("Sum of the positive numbers in the vector: %.2f\n", sum);
 
 	return 0;
 }
