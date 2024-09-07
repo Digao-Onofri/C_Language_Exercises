@@ -8,7 +8,6 @@
 */
 #include<stdio.h>
 #define MAX 10
-//start of the program
 int main()
 {
 	int i;
