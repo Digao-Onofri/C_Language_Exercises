@@ -6,9 +6,7 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
-
 int main() {
 	int *p = NULL;
 	int v1, v2, aux;
