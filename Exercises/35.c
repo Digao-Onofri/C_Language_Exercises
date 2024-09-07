@@ -4,7 +4,7 @@
  	by both.
  	Youtube lesson: https://youtu.be/8N4DMAc0zHY
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
- 	
+ 	 
 */
 #include<stdio.h>
 int main()
