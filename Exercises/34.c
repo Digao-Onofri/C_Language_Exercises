@@ -3,7 +3,7 @@
  	Example: Write a program, which read the height and weight and calculate the BMI.
  	Youtube lesson: https://youtu.be/nnsKNXXj8pQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
- 	
+ 	 
 */
 #include<stdio.h>
 #include<math.h>
