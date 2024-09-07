@@ -1,6 +1,6 @@
 /*
 
- 	Example: Write a program, which reads 10 real values and stores them in a vector. Next, 
+ 	Example: Write a program, which reads 10 real values and stores them in a array. Next, 
  	search for positive numbers and calculate their sum.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
