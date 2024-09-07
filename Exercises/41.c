@@ -8,7 +8,6 @@
  	
 */
 #include<stdio.h>
-//start of the program
 int main()
 {
 	int n, i, sum;
