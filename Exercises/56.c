@@ -1,7 +1,7 @@
 /*
 
  	Example: Write a program that reads 10 integers and stores them in a array. Count how much
- 	even numbers that this vector has.
+ 	even numbers that this array has.
  	Youtube lesson: https://youtu.be/WpYiV-72AsA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
