@@ -7,7 +7,6 @@
  	
 */
 #include<stdio.h>
-//start of the program
 int main()
 {
 	float sidea, sideb, sidec;
