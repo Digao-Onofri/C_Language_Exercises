@@ -24,16 +24,14 @@ int main()
     int i;
     float array[MAX], average = 0, summatory = 0, Sample_Standard_Deviation;
     
-    for(i = 0; i < MAX; i++)
-    {
+    for(i = 0; i < MAX; i++){
         scanf("%f", &array[i]);
         average += array[i]; 
     }
     
     average = average / MAX;
     
-    for(i = 0; i < MAX; i++)
-    {
+    for(i = 0; i < MAX; i++){
         summatory += ( (array[i] - average) * (array[i] - average));
     }
     
