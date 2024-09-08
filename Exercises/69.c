@@ -36,10 +36,8 @@ int main()
 	tallest = real[0];
 	lowest = real[0];
 	
-	for(i = 0; i < MAX; i++)
-	{
-		for(j = 0; j < MAX; j++)
-		{
+	for(i = 0; i < MAX; i++){
+		for(j = 0; j < MAX; j++){
 			if(tallest < real[j]){
 				tallest = real[j];
 				place_tallest = j;
