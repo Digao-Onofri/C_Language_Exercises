@@ -39,8 +39,8 @@ int main()
 		for(j = 0; j < MAX; j++){
 			if(a[i] == b[j]){
 				repeat = 1;
+				break;
 			}
-			
 		}
 		if(repeat == 0){
 			printf("%d ", a[i]);
