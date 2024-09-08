@@ -19,8 +19,7 @@ int main()
 {
 	int array[MAX], i, largest, second_largest;
 	
-	for(i = 0 ; i < MAX; i++)
-	{
+	for(i = 0 ; i < MAX; i++){
 		printf("Enter the value placed in the position: [%d]\n", i);
 		scanf("%d", &array[i]);
 	}
@@ -28,10 +27,8 @@ int main()
 	largest = array[0];
 	second_largest = 0;
 	
-	for(i = 0; i < MAX; i++)
-	{
-		if(largest < array[i])
-		{
+	for(i = 0; i < MAX; i++){
+		if(largest < array[i]){
 			second_largest = largest;
 			largest = array[i];
 		}
