@@ -2,16 +2,9 @@
 
  	Example:  Make a program that reads 6 integers and stores them in an array. Then print on a 
  	single line the positions of the largest and smallest elements present in the array.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/9kvNEmMVqQE
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #define MAX 6
