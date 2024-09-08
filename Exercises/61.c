@@ -21,8 +21,7 @@ int main()
 	
 	printf("Enter %d integers:\n", MAX);
 	
-	for(i = 0; i < MAX; i++)
-	{
+	for(i = 0; i < MAX; i++){
 		scanf("%d",&array[i]);
 	}
 	
@@ -31,15 +30,12 @@ int main()
 	posx = 0;
 	posy = 0;
 	
-	for(i = 0; i < MAX; i++)
-	{
-		if(largest < array[i])
-		{
+	for(i = 0; i < MAX; i++){
+		if(largest < array[i]){
 			largest = array[i];
 			posx = i;
 		}
-		else if(smallest > array[i])
-		{
+		else if(smallest > array[i]){
 			smallest = array[i];
 			posy = i;
 		}
