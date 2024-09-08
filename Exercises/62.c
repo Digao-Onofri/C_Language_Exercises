@@ -2,16 +2,9 @@
 
  	Example:  Make a program that reads 6 integers and stores them in an array. Then print on a 
  	single line which are the largest and second largest elements present in the array.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/zFZFxZLWopY
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #define MAX 6
