@@ -47,6 +47,8 @@ int main()
 		}
 	}
 
+	printf("The matrix with the biggest values is equal to:\n");
+	
    	control = 0;
 	for(i = 0; i < MAX; i++){
 		for(j = 0; j < MAX; j++){      
