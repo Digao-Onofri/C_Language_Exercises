@@ -14,35 +14,26 @@
 	Subscribe for regular content!
 
 */
-
 #include<stdio.h>
-#define LIN 3 // Lines 
+#define ROW 3 // Rows 
 #define COL 5 // Columns
-//start of the program
 int main()
 {
-	int n[LIN][COL], i, j, par, impar;
+	int matrix[ROW][COL], i, j, even = 0, odd = 0;
 	
-	par = 0;
-	impar = 0;
-	
-	for(i = 0; i < LIN; i++)
-	{
-		for(j = 0; j < COL; j++)
-		{
-			scanf("%d", &n[LIN][COL]);
-			if(n[LIN][COL] % 2 == 0)
-			{
-				par++;
+	for(i = 0; i < ROW; i++){
+		for(j = 0; j < COL; j++){
+			scanf("%d", &matrix[ROW][COL]);
+			if(matrix[ROW][COL] % 2 == 0){
+				even++;
 			}
-			else
-			{
-				impar++;
+			else{
+				odd++;
 			}
 		}
 	}
 
-	printf("%d %d", par, impar);
+	printf("Amount of even numbers:%d\nAmount of odd numbers: %d\n", even, odd);
 
 	return 0;
 }
