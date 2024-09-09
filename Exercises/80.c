@@ -17,7 +17,6 @@
 
 #include<stdio.h>
 #define MAX 3
-//start of the program
 int main()
 {
 	int a[MAX][MAX], i, j, largest, second_largest, row, col;
