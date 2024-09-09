@@ -35,7 +35,7 @@ int main()
 			if(largest < a[i][j]){
 				second_largest = largest;
 				row = i;
-				col = j - 1;
+				col = j;
 				largest = a[i][j];
 			}
 			else if(second_largest < a[i][j]){
