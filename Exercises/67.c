@@ -1,8 +1,8 @@
 /*
 
  	Example:  Make a program that reads, indefinitely, integer values. Whenever the user enters 
- 	a number odd, store it in a 10-position array. Once the odd tenth number is stored, close 
- 	the reading and print, in a single line, the elements of the vector separated from each 
+ 	an odd number, store it in a 10-position array. Once the odd tenth number is stored, close 
+ 	the reading and print, in a single line, the elements of the array separated from each 
  	other by a single space. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
