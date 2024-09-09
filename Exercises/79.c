@@ -18,7 +18,8 @@
 int main()
 {
 	int a[3][5], i, j, k, control, prime;
-	
+
+	printf("Enter the values for the matrix A:\n");
 	for(i = 0; i < 3; i++){
 		for(j = 0; j < 5; j++){
 			printf("Enter the value placed in the position [%d][%d]\n", i, j);
@@ -26,26 +27,23 @@ int main()
 		}
 	}
 	
-	printf("-------\n");
-
+	printf("The prime numbers in the matrix are:\n");
 	//search the prime numbers
 	for(i = 0; i < 3; i++){
-		control = 1;
-		for(j = 0; j < 5; j++){
+		control = 0;
+		for(j = 0; j < 5; j++) {
 			prime = a[i][j];
-			for(k = 2; k < prime; k++){ //will check if it is a prime number
+			for(k = 2; k < prime; k++){
 				if(prime % k == 0){
-					control = 0;
+					control = 1;
 					break;
 				}
 			}
-			if(control == 1 && prime == 1){
-				printf("%d ", prime);
+			if(control == 0 && prime != ){
+				printf("%d ", prime);	
 			}
 		}	
-		
-	}		
-	
+	}
 
 	return 0;
 }
