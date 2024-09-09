@@ -16,28 +16,28 @@
 */
 
 #include<stdio.h>
-#define LIN 4
+#define ROW 4
 #define COL 5
 int main()
 {
-	int n[LIN][COL], m[0][0], i, j, maior, posx, posy;
+	int matrix[ROW][COL], i, j, biggest, posx, posy;
 	
-	maior = m[0][0];
+	biggest = matrix[0][0];
 	posx = 0;
 	posy = 0;
 	
-	for(i = 0; i < LIN; i++){
+	for(i = 0; i < ROW; i++){
 		for(j = 0; j < COL; j++){
-			scanf("%d", &n[i][j]);
-			if(maior < n[i][j]){
-				maior = n[i][j];
+			scanf("%d", &matrix[i][j]);
+			if(biggest < matrix[i][j]){
+				biggest = matrix[i][j];
 				posx = i;
 				posy = j;
 			}
 		}
 	}
 	
-	printf("%d %d %d", maior, posx, posy);
+   	printf("The biggest value in the matrix is: %d\nThe row position is: %d\nThe column position is: %d", biggest, posx, posy);
 
 	return 0;
 }
