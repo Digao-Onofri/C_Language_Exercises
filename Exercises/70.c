@@ -2,7 +2,7 @@
 
  	Example:  Make a program that reads 10 real values and stores them in a array v. Next, 
  	calculate, with 1 decimal place, the sampling standard deviation of the elements in the 
- 	array, according to the following expression, where n is the Quantity of elements standard 	 
+ 	array, according to the following expression, where n is the Quantity of elements sample standard 	 
  	deviation = 1 / N * summatory (v[i] - average)^2 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
