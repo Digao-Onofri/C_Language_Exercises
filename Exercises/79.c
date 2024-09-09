@@ -39,11 +39,11 @@ int main()
 					break;
 				}
 			}
-			if(control == 1 && prime != 1){
+			if(control == 1 && prime == 1){
 				printf("%d ", prime);
 			}
-			
-		}			
+		}	
+		
 	}		
 	
 
