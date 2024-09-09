@@ -19,30 +19,25 @@
 #include<stdio.h>
 #include<math.h>
 #define MAX 10
-//start of the program
 int main()
 {
-    int n[MAX], i, x, mult, raiz;
+    int array[MAX], i, integer, square, root;
     
     i = 0;
     
-    while(i < MAX)
-    {
-    	scanf("%d", &x);
-    	raiz = sqrt(x);
-    	mult = raiz * raiz;
-    	if(mult == x)
-    	{
-    		n[i] = x;
-    		i++
+    while(i < MAX){
+    	scanf("%d", &integer);
+    	root = sqrt(integer);
+    	square = root * root;
+    	if(square == integer){
+    		array[i] = integer;
+    		i++;
     	}
     }
 
-    for(i = 0; i < MAX; i++)
-    {
-    	printf("%d ", n[i]);
+    for(i = 0; i < MAX; i++){
+    	printf("%d ", array[i]);
     }
 
-    
     return 0;
 }
