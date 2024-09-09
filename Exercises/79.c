@@ -30,8 +30,8 @@ int main()
 	printf("The prime numbers in the matrix are:\n");
 	//search the prime numbers
 	for(i = 0; i < 3; i++){
-		control = 0;
 		for(j = 0; j < 5; j++) {
+			control = 0;
 			prime = a[i][j];
 			for(k = 2; k < prime; k++){
 				if(prime % k == 0){
@@ -39,7 +39,7 @@ int main()
 					break;
 				}
 			}
-			if(control == 0 && prime != ){
+			if(control == 0 && prime != 0){
 				printf("%d ", prime);	
 			}
 		}	
