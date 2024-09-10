@@ -20,9 +20,9 @@
 //start of the program
 int main()
 {
-    int n; 
+        int n; 
     
-    //ask the value of n
+        //ask the value of n
 	scanf("%d", &n);
 	
 	int a[n][n], i, j, sum_main_diagonal, sum_secondary_diagonal, sum_row, sum_col, check;
