@@ -3,16 +3,9 @@
  	Example: Make a program that reads 10 integers and stores them in an array. Then print in a 
  	single line which are the smallest, the second smallest and the third smallest elements 
  	present in the array, separated between for a single space. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/vg0jOwakehU
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include <stdio.h>
 #define MAX 10
