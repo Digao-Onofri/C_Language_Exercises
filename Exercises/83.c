@@ -13,7 +13,6 @@
 	Subscribe for regular content!
 
 */
-
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -24,25 +23,25 @@ int main()
 	scanf("%[^\n]", a);
 	
 	for(i = 0; i < strlen(a); i++){
-		Switch(a[i]){
-			case a:
-			case A:
+		switch(a[i]){
+			case 'a':
+			case 'A':
 				qtd_vowels++;
 				break;
-			case e:
-			case E:
+			case 'e':
+			case 'E':
 				qtd_vowels++;
 				break;
-			case i:
-			case I:
+			case 'i':
+			case 'I':
 				qtd_vowels++;
 				break;
-			case o:
-			case O:
+			case 'o':
+			case 'O':
 				qtd_vowels++;
 				break;
-			case u:
-			case U:
+			case 'u':
+			case 'U':
 				qtd_vowels++;
 				break;
 		}
