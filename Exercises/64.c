@@ -3,16 +3,9 @@
  	Example:  Make a program that reads 10 integers and stores them in an array. Then print in a 
  	single line the elements of the array, separated from each other by a single space, but 
  	eliminating repetitions of Elements. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/OG127ykjkF0
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h> 
 #define MAX 10
