@@ -1,6 +1,6 @@
 /*
 
- 	Example:  Make a program that reads one sentence F and two integers I and J. Then print the 
+ 	Example:  Make a program that reads one sentence and two integers I and J. Then print the 
  	characters of the positions that go from I to J, inclusive. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
@@ -21,13 +21,14 @@ int main()
 	char a[100];
 	int i, j, k;
 	
-	fgets(a, 100, stdin);
+	printf("Enter the sentence:\n");
+	scanf("%[^\n]", a);
+	
+	printf("Enter two integers:\n");
 	scanf("%d %d", &i, &j);
 	
-	for(k = 0; k < strlen(a); k++)
-	{
-		if(k >= i && k <= j)
-		{
+	for(k = 0; k < strlen(a); k++){
+		if(k >= i && k <= j){
 			printf("%c", a[k]);
 		}
 	}
