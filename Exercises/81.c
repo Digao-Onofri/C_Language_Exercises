@@ -18,16 +18,13 @@
 
 #include<stdio.h>
 #define MAX 3
-//start of the program
 int main()
 {
 	int a[MAX][MAX], i, j, control;
 	
 	//for to read the matrix
-	for(i = 0; i < MAX; i++)
-	{
-		for(j = 0; j < MAX; j++)
-		{
+	for(i = 0; i < MAX; i++){
+		for(j = 0; j < MAX; j++){
 			scanf("%d", &a[i][j]);
 		}
 	}
@@ -35,55 +32,46 @@ int main()
 	//search if the 1 wins 
 	control = 0;
 	//first line
-	if(a[0][0] == 1 && a[0][1] == 1  && a[0][2] == 1)
-	{
+	if(a[0][0] == 1 && a[0][1] == 1 && a[0][2] == 1){
 		printf("sim");
 		control = 1;
 	}
 	//second line
-	else if(a[1][0] == 1 && a[1][1] == 1 && a[1][2] == 1)
-	{
+	else if(a[1][0] == 1 && a[1][1] == 1 && a[1][2] == 1){
 		printf("sim");
 		control = 1;
 	}
 	//third line		
-	else if(a[2][0] == 1 && a[2][1] == 1 && a[2][2] == 1)
-	{
+	else if(a[2][0] == 1 && a[2][1] == 1 && a[2][2] == 1){
 		printf("sim");
 		control = 1;
 	}
 	//first column
-	else if(a[0][0] == 1 && a[1][0] == 1 && a[2][0] == 1)
-	{
+	else if(a[0][0] == 1 && a[1][0] == 1 && a[2][0] == 1){
 		printf("sim");
 		control = 1;
 	}
 	//second column
-	else if(a[0][1] == 1 && a[1][1] == 1 && a[2][1] == 1)
-	{
+	else if(a[0][1] == 1 && a[1][1] == 1 && a[2][1] == 1){
 		printf("sim");
 		control = 1;
 	}
 	//third column
-	else if(a[0][2] == 1 && a[1][2] == 1 && a[2][2] == 1)
-	{
+	else if(a[0][2] == 1 && a[1][2] == 1 && a[2][2] == 1){
 		printf("sim");
 		control = 1;
 	}
 	//main diagonal
-	else if(a[0][0] == 1 && a[1][1] == 1 && a[2][2] == 1)
-	{
+	else if(a[0][0] == 1 && a[1][1] == 1 && a[2][2] == 1){
 		printf("sim");
 		control = 1;
 	}
 	//secondary diagonal
-	else if(a[0][2] == 1 && a[1][1] == 1 && a[2][0] == 1)
-	{
+	else if(a[0][2] == 1 && a[1][1] == 1 && a[2][0] == 1){
 		printf("sim");
 		control = 1;
 	}
-	else if(control == 0)
-	{
+	else if(control == 0){
 		printf("nao");
 	}
 	
