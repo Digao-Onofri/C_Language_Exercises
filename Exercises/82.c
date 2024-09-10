@@ -23,6 +23,7 @@ int main()
         int n; 
     
         //ask the value of n
+	printf("Enter an integer value for the N: ");
 	scanf("%d", &n);
 	
 	int a[n][n], i, j, sum_main_diagonal, sum_secondary_diagonal, sum_row, sum_col, check;
