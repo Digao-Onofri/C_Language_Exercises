@@ -14,7 +14,6 @@
 	Subscribe for regular content!
 
 */
- // problema no espacamento final
 
 #include<stdio.h>
 #include<string.h>
@@ -27,10 +26,8 @@ int main()
 	scanf("%[^\n]", a);
 	
 	//removing the spaces and reading by back to front
-	for(i = strlen(a) - 1, j = 0; i >= 0; i--)
-	{	
-		if(a[i] != ' ')
-		{
+	for(i = strlen(a) - 1, j = 0; i >= 0; i--){	
+		if(a[i] != ' '){
 			b[j] = tolower(a[i]);
 			j++;
 		}
@@ -39,22 +36,18 @@ int main()
 	b[j] = '\0';
 	
 	//removing the spaces 
-	for(i = 0, k = 0; i <= strlen(a); i++)
-	{
-		if(a[i] != ' ')
-		{
+	for(i = 0, k = 0; i <= strlen(a); i++){
+		if(a[i] != ' '){
 			c[k] = tolower(a[i]); 
 			k++;
 		}
 	}
 
 	//comparison
-	if(strcmp(c, b) == 0)
-	{
+	if(strcmp(c, b) == 0){
 	    printf("sim");
 	}
-	else
-	{
+	else{
 	    printf("nao");
 	}
 	
