@@ -3,16 +3,9 @@
  	Example:  Make a program that reads 6 integers and stores them in an array A. Read another 6 
  	integers and store them on a array B. Next, print on a single line, the elements of array 
  	A that are not present in the array B, separated from each other by a single space. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/eeMZyXPkFF4
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #define MAX 6
