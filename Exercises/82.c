@@ -26,10 +26,8 @@ int main()
 	scanf("%d", &n)
 	
 	//read the values
-	for(i = 0; i < n; i++)
-	{
-		for(j = 0; j < n; j++)
-		{
+	for(i = 0; i < n; i++){
+		for(j = 0; j < n; j++){
 			scanf("%d", &a[i][j]);
 		}
 	}
@@ -37,47 +35,40 @@ int main()
 	check = 0;
 	//checking if the matrix is an magic square 
 	//Main diagonal
-	for(i = 0; i < n; i++) 
-	{ 
+	for(i = 0; i < n; i++) { 
 		s1 += a[i][i];
 	}
 	//Secondary diagonal
-	for(i = 0, j = n - 1; i < n ; i++, j--)
-	{
+	for(i = 0, j = n - 1; i < n ; i++, j--){
 		s2 += a[i][j]; 	
 	}	
 	
-	if(s1 != s2)
-	{
+	if(s1 != s2){
 		printf("nao");
 		return 0;
 	}
+	
 	//rows and cols
-	for(i = 0; i < n; i++)
-	{
+	for(i = 0; i < n; i++){
 		srow = 0;
 		scol = 0;
-		for(j = 0; j < n; j++)
-		{
+		for(j = 0; j < n; j++){
 		 	srow += a[i][j];
 		 	scol += a[j][i];
 		}
-		if(s1 != srow)
-		{
+		if(s1 != srow){
 			printf("nao");
 			check++;
 			break;
 		}
-		if(s1 != scol)
-		{
+		if(s1 != scol){
 			printf("nao");
 			check++;
 			break;
 		}
 	}
 	
-	if(check == 0)
-	{
+	if(check == 0){
 		printf("sim");
 	}
 	
