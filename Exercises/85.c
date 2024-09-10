@@ -19,21 +19,17 @@
 int main()
 {
 	char a[100];
-	int i, qtd;
+	int i, qtd_spaces = 0;
 	
 	scanf("%[^\n]", a);
 	
-	qtd = 0;
-	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(a[i] == ' ')
-		{
-			qtd++;
+	for(i = 0; i < strlen(a); i++){
+		if(a[i] == ' '){
+			qtd_spaces++;
 		}
 	}
 
-	printf("%d", qtd);
+	printf("%d", qtd_spaces);
 	
 	return 0;
 }
