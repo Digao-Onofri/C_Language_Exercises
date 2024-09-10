@@ -22,9 +22,8 @@ int main()
 	
 	scanf("%[^\n]", a);
 	
-	for(i = strlen(a) - 1, j = 0 ; i >= 0 ; i--, j++){
-		b[j] = a[i];
-		printf("%c", b[j]);
+	for(i = strlen(a) - 1; i >= 0 ; i--){
+		printf("%c", a[i]);
 	}
 
 	return 0;
