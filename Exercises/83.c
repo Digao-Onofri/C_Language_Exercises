@@ -20,32 +20,27 @@
 int main()
 {
 	char a[100];
-	int qtd, i; 
+	int qtd_vowels, i; 
 	
 	scanf("%[^\n]", a);
 	
 	qtd = 0;
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(islower(a[i]))
-		{
-			if(a[i] == 'a' || a[i] == 'o' || a[i] == 'e' || a[i] == 'i' || a[i] == 'u')
-			{
-				qtd++;
+	for(i = 0; i < strlen(a); i++){
+		if(islower(a[i])){
+			if(a[i] == 'a' || a[i] == 'o' || a[i] == 'e' || a[i] == 'i' || a[i] == 'u'){
+				qtd_vowels++;
 			}
 		}
-		else
-		{
-			if(a[i] == 'A' || a[i] == 'O' || a[i] == 'E' || a[i] == 'I' || a[i] == 'U')
-			{
-				qtd++;
+		else{
+			if(a[i] == 'A' || a[i] == 'O' || a[i] == 'E' || a[i] == 'I' || a[i] == 'U'){
+				qtd_vowels++;
 			}
 		}
 		
 	} 
 	
-	printf("%d", qtd);
+	printf("%d\n",qtd_vowels);
 
 	return 0;
 }
