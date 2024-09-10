@@ -1,7 +1,7 @@
 /*
 
- 	Example:  Make a program that reads a sentence and copies it to another vector, removing the 
- 	blanks. Print the second vector. 
+ 	Example:  Make a program that reads a sentence and copies it to another array, removing the 
+ 	blanks. Print the second array. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -23,13 +23,15 @@ int main()
 
 	scanf("%[^\n]", a);
 	
-	for(i = 0, j = 0; i < strlen(a); i++, j++)
-	{
-		if(a[i] != ' ')
-		{
+	for(i = 0, j = 0; i < strlen(a); i++){
+		if(a[i] != ' '){
 			b[j] = a[i];
-			printf("%c", b[j]);
+			j++;
 		}
+	}
+
+	for(j = 0; j < strlen(b); j++){
+		printf("%c", b[j]);
 	}
 	
 	return 0;
