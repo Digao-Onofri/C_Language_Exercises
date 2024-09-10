@@ -25,10 +25,8 @@ int main()
 	
 	qtda = qtde = qtdu = qtdi = qtdo = 0;
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		switch(a[i])
-		{		
+	for(i = 0; i < strlen(a); i++){
+		switch(a[i]){		
 			case 'a':
 			case 'A':
 			qtda++;
