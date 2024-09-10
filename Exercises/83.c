@@ -16,7 +16,6 @@
 
 #include<stdio.h>
 #include<string.h>
-#include<ctype.h>
 int main()
 {
 	char a[100];
@@ -25,13 +24,27 @@ int main()
 	scanf("%[^\n]", a);
 	
 	for(i = 0; i < strlen(a); i++){
-		if(islower(a[i])){
-			if(a[i] == 'a' || a[i] == 'o' || a[i] == 'e' || a[i] == 'i' || a[i] == 'u'){
+		Switch(a[i]){
+			case a:
+			case A:
 				qtd_vowels++;
-			}
-		}
-		else if(a[i] == 'A' || a[i] == 'O' || a[i] == 'E' || a[i] == 'I' || a[i] == 'U'){
-			qtd_vowels++;
+				break;
+			case e:
+			case E:
+				qtd_vowels++;
+				break;
+			case i:
+			case I:
+				qtd_vowels++;
+				break;
+			case o:
+			case O:
+				qtd_vowels++;
+				break;
+			case u:
+			case U:
+				qtd_vowels++;
+				break;
 		}
 	} 
 	
