@@ -1,7 +1,7 @@
 /*
 
  	Example:  Make a program that reads 10 integers and stores them in a array. Next, read an X 
- 	value and print it what are the multiple elements of X that are present in the array. 
+ 	value and print it what are the multiple elements of an integer that are present in the array. 
  	Youtube lesson: https://youtu.be/VUburIRgStA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
