@@ -20,11 +20,9 @@
 int main()
 {
 	char a[100];
-	int qtd_vowels, i; 
+	int qtd_vowels = 0, i; 
 	
 	scanf("%[^\n]", a);
-	
-	qtd = 0;
 	
 	for(i = 0; i < strlen(a); i++){
 		if(islower(a[i])){
@@ -32,12 +30,9 @@ int main()
 				qtd_vowels++;
 			}
 		}
-		else{
-			if(a[i] == 'A' || a[i] == 'O' || a[i] == 'E' || a[i] == 'I' || a[i] == 'U'){
-				qtd_vowels++;
-			}
+		else if(a[i] == 'A' || a[i] == 'O' || a[i] == 'E' || a[i] == 'I' || a[i] == 'U'){
+			qtd_vowels++;
 		}
-		
 	} 
 	
 	printf("%d\n",qtd_vowels);
