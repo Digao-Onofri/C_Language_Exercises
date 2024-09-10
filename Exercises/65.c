@@ -2,16 +2,9 @@
 
  	Example:  Make a program that reads 10 integers and stores them in a array. Next, read an X 
  	value and print it what are the multiple elements of X that are present in the array. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/VUburIRgStA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #define MAX 10
