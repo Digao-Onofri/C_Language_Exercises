@@ -20,7 +20,7 @@
 //start of the program
 int main()
 {
-	int a[n][n], i, j, s1, s2, srow, scol, check;
+	int a[n][n], i, j, sum_main_diagonal, sum_secondary_diagonal, sum_row, sum_col, check;
 	
 	//ask the value of n
 	scanf("%d", &n)
@@ -36,40 +36,40 @@ int main()
 	//checking if the matrix is an magic square 
 	//Main diagonal
 	for(i = 0; i < n; i++) { 
-		s1 += a[i][i];
+		sum_main_diagonal += a[i][i];
 	}
 	//Secondary diagonal
 	for(i = 0, j = n - 1; i < n ; i++, j--){
-		s2 += a[i][j]; 	
+		sum_secondary_diagonal += a[i][j]; 	
 	}	
 	
 	if(s1 != s2){
-		printf("nao");
-		return 0;
+		printf("nao\n");
+		return 1;
 	}
 	
 	//rows and cols
 	for(i = 0; i < n; i++){
-		srow = 0;
-		scol = 0;
+		sum_row = 0;
+		sum_col = 0;
 		for(j = 0; j < n; j++){
-		 	srow += a[i][j];
-		 	scol += a[j][i];
+		 	sum_row += a[i][j];
+		 	sum_col += a[j][i];
 		}
-		if(s1 != srow){
-			printf("nao");
+		if(sum_main_diagonal != sum_row){
+			printf("nao\n");
 			check++;
 			break;
 		}
-		if(s1 != scol){
-			printf("nao");
+		if(sum_main_diagonal != sum_col){
+			printf("nao\n");
 			check++;
 			break;
 		}
 	}
 	
 	if(check == 0){
-		printf("sim");
+		printf("sim\n");
 	}
 	
 	return 0;
