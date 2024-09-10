@@ -3,7 +3,7 @@
  	Example: Make a program that reads 10 integers and stores them in an array. Then print in a 
  	single line which are the smallest, the second smallest and the third smallest elements 
  	present in the array, separated between for a single space. 
- 	Youtube lesson: https://youtu.be/vg0jOwakehU
+ 	Youtube lesson: https://youtu.be/evACgG7v-3U
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
