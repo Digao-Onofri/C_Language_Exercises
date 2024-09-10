@@ -27,8 +27,6 @@ int main()
 	
 	int a[n][n], i, j, sum_main_diagonal, sum_secondary_diagonal, sum_row, sum_col, check;
 	
-
-	
 	//read the values
 	for(i = 0; i < n; i++){
 		for(j = 0; j < n; j++){
