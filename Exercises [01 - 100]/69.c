@@ -4,15 +4,9 @@
  	students and stores them in a array. Next, read 8 real values, representing the heights of 
  	these students and store them in an array. Show the student's registration number of the
  	lowest, do the same for the tallest student. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/5OD908Wn_BY
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #define MAX 8
