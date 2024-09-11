@@ -4,17 +4,11 @@
  	another 5 integers and store them in a array B. Create an array C = A – B (numbers that 
  	appers only in the array a). Print, in a single line, the elements of the vector C separated 
  	from each other by a single space. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/opHkbKcO4XQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
 
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
 #include<stdio.h>
 #define MAX 5
 int main()
