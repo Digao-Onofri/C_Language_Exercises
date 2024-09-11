@@ -20,17 +20,18 @@
 int main()
 {
 	char a[3], b[3], c[3], d[3];
-	int soma, x, y, z, w;
+	int sum, integera, integerb, integerc, integerd;
 	
+	printf("Enter four integers:\n");
 	scanf("%s %s %s %s", a, b, c, d);	
 	
-	x = atoi(a);
-	y = atoi(b);
-	z = atoi(c);
-	w = atoi(d);
-	soma = x + y + z + w;
+	integera = atoi(a);
+	integerb = atoi(b);
+	integerc = atoi(c);
+	integerd = atoi(d);
+	sum = integera + integerb + integerc + integerd;
 	
-	printf("%d", soma);
+	printf("The sum of the fourth values is: %d\n", sum);
 
 	return 0;
 }

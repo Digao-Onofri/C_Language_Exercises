@@ -19,29 +19,28 @@
 int main()
 {
 	char a[100], b[100];
-	int i, j, check, qtd = 0;
+	int i, j, check, qtd_repetition = 0;
 	
+	printf("Enter the string a:\n");
 	scanf("%[^\n]", a);
+	
+	printf("Enter the string b:\n");
 	scanf(" %[^\n]", b);
 	
-	for(i = 0; i < strlen(b); i++)
-	{
+	for(i = 0; i < strlen(b); i++){
 		check = 0;
-		for(j = 0; j < strlen(a); j++)
-		{
-			if(b[i + j] != a[j])
-			{
+		for(j = 0; j < strlen(a); j++){
+			if(b[i + j] != a[j]){
 				check = 1;
 				break;	
 			}
 		}
-		if(check == 0)
-		{
-			qtd++;
+		if(check == 0){
+			qtd_repetition++;
 		}
 	}
 
-	printf("%d", qtd);
+	printf("String A occurs within string B %d times\n", qtd_repetition);
 	
 	return 0;
 }
