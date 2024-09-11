@@ -4,18 +4,10 @@
  	calculate, with 1 decimal place, the sampling standard deviation of the elements in the 
  	array, according to the following expression, where n is the Quantity of elements sample standard 	 
  	deviation = 1 / N * summatory (v[i] - average)^2 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/aUCKqWBd7VA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<math.h>
 #define MAX 8
