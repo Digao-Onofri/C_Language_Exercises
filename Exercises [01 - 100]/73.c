@@ -1,7 +1,7 @@
 /*
 
  	Example:  Make a program that reads a 4x4 matrix of integers. Next, show as an answer how 
- 	many values bigger than 10 are present in the matrix. 
+ 	many values that is bigger than 10 are present in the matrix. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
