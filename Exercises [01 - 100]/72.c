@@ -21,7 +21,7 @@
 #define MAX 10
 int main()
 {
-    int array[MAX], i, integer, square, root;
+    int array[MAX], i = 0, integer, square, root;
     
     while(i < MAX){
     	scanf("%d", &integer);
