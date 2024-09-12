@@ -1,8 +1,8 @@
 /*
 
  	Example:  Make a program that reads, indefinitely, integer values. Whenever the user enters 
- 	a number perfect square, store it in a 10 position vector. So the perfect tenth square 
- 	number is stored, end the reading and print, in a single line, the vector elements separated 
+ 	a number perfect square, store it in a 10 position array. So the perfect tenth square 
+ 	number is stored, end the reading and print, in a single line, the array elements separated 
  	from each other for a single space. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
