@@ -23,8 +23,6 @@ int main()
 {
     int array[MAX], i, integer, square, root;
     
-    i = 0;
-    
     while(i < MAX){
     	scanf("%d", &integer);
     	root = sqrt(integer);
