@@ -1,5 +1,4 @@
 /*
-<<<<<<< HEAD
 
  	Example:  Make a program that reads, indefinitely, integer values. Whenever the user enters 
  	a prime number, store it in a 10-position array. Once the tenth prime number is stored, 
@@ -11,8 +10,6 @@
 */
 
 /*
-=======
->>>>>>> dbb24e3 (updates)
 	
 	Link for the script is on the video description!
 	Subscribe for regular content!
