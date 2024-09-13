@@ -18,24 +18,25 @@
 #include<string.h>
 int main()
 {
-	char a[5], b[5], c[5], d[5], as[5]; 
-	int x, y, z, w, soma;
+	char a[5], b[5], c[5], d[5], answer[5]; 
+	int valuea, valueb, valuec, valued, sum;
 	
-	fgets(a, 5, stdin);
-	fgets(b, 5, stdin);
-	fgets(c, 5, stdin);
-	fgets(d, 5, stdin);
+	printf("Enter 4 integers:\n");
+	scanf("%s", a);
+	scanf("%s", b);
+	scanf("%s", c);
+	scanf("%s", d);
 	
-	sscanf(a, "%d", &x);
-	sscanf(b, "%d", &y);
-	sscanf(c, "%d", &z);
-	sscanf(d, "%d", &w);
+	sscanf(a, "%d", &valuea);
+	sscanf(b, "%d", &valueb);
+	sscanf(c, "%d", &valuec);
+	sscanf(d, "%d", &valued);
 	
-	soma = x + y + z + w;
+	sum = valuea + valueb + valuec + valued;
 	
-	sprintf(as, "%d", soma);
+	sprintf(answer, "%d", sum);
 	
-	printf("%s", as);
+	printf("The answer is: %s\n", answer);
 	
 	return 0;
 }	

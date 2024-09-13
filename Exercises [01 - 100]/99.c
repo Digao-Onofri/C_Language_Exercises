@@ -19,27 +19,26 @@
 #include<ctype.h>
 int main()
 {
-	char a[100];
+	char string[100];
 	int i, QTD, qtd;
 	
-	fgets(a, 100, stdin);
+	printf("Enter a sentence:\n");
+	scanf("%[^\n]", string);
 	
 	QTD = qtd = 0;
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(isupper(a[i]) && a[i] != ' ')
-		{
+	for(i = 0; i < strlen(string); i++){
+		if(isupper(string[i]) && string[i] != ' '){
 			QTD++;
 		}
-		else if(islower(a[i]) && a[i] != ' ')
-		{
+		else if(islower(string[i]) && string[i] != ' '){
 			qtd++;
 		}
 		
 	}
 	
-	printf("%d %d", qtd, QTD);
+	printf("The amount of lower caracters are: %d\n", qtd);
+	printf("The amount of upper caracters are: %d\n", QTD);
 
 	return 0;
 }

@@ -18,22 +18,21 @@
 #include<ctype.h>
 int main()
 {
-	char a[100];
+	char string[100];
 	int i;
 	
-	fgets(a, 100, stdin);
+	printf("Enter a sentence:\n");
+	scanf("%[^\n]", string);
 	
-	a[0] = toupper(a[0]);
+	string[0] = toupper(string[0]);
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(a[i] == ' ')
-		{
-			a[i + 1] = toupper(a[i + 1]);
+	for(i = 0; i < strlen(string); i++){
+		if(string[i] == ' '){
+			string[i + 1] = toupper(string[i + 1]);
 		}
 	}
 	
-	printf("%s", a);
+	printf("%s\n", string);
 	
 	return 0;
 }

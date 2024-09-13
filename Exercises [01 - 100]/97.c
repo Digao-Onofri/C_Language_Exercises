@@ -17,20 +17,19 @@
 #include<string.h>
 int main()
 {
-	char a[100];
-	int i, qtd = 0;
+	char string[100];
+	int i, qtd_words = 0;
 	
-	fgets(a, 100, stdin);
+	printf("Enter a sentence:\n");
+	scanf("%[^\n]", string);
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(a[i] == ' ')
-		{
-			qtd++;
+	for(i = 0; i < strlen(string); i++){
+		if(string[i] == ' '){
+			qtd_words++;
 		}
 	}
 
-	printf("%d", qtd + 1);
+	printf("The number of words are: %d\n", qtd_words + 1);
 
 	return 0;
 }

@@ -20,92 +20,83 @@
 #include<stdlib.h> 
 int main()
 {
-	char a[100], b[5], c[5], d[5];
-	int i, j, k, l, qtd = 0, cx, cy, cz, cw;
-	double x, y, z, w, soma;
+	char sentence[100], a[5], b[5], c[5], d[5];
+	int i = 0, j = 0, k = 0, l = 0, qtd = 0, flag = 0;
+	double valuea = 0, valueb = 0, valuec = 0, valued = 0, sum = 0;
 	
-	fgets(a, 100, stdin);
+	printf("Enter 4 real values:\n");
+	scanf("%[^\n]", sentence);
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(a[i] == ' ')
-		{
+	for(i = 0; i < strlen(sentence); i++){ //separating the values in 4 different arrays
+		if(sentence[i] == ' '){
 			qtd++;
 		}
-		if(qtd == 1)
-		{
-			b[j] = a[i];
+		if(qtd == 0) {
+			a[i] = sentence[i];
+		}
+		if(qtd == 1){
+			b[j] = sentence[i + 1];
 			j++;
 		}
-		if(qtd == 2)
-		{
-			c[k] = a[i];
+		if(qtd == 2){
+			c[k] = sentence[i + 1];
 			k++;
 		}
-		if(qtd == 3)
-		{
-			d[l] = a[i];
+		if(qtd == 3){
+			d[l] = sentence[i];
 			l++;
 		}
 	}
-	
-	cx = cy = cz = cw = 0;
 
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(a[i] == '.')
-		{
-			x = atof(a);
-			cx++;
+	for(i = 0; i < strlen(a); i++){ //calculating the first value
+		if(a[i] == '.'){
+			valuea = atof(a);
+			flag++;
 		}
-		if(cx == 0)
-		{
-			x = atoi(a);
+		if(flag == 0){
+			valuea = atoi(a);
 		}	
 	}
 	
-	for(j = 0; j < strlen(b); j++)
-	{
-		if(b[j] == '.')
-		{
-			y = atof(b);
-			cy++;
+	flag = 0; //setting the value of the flag to zero again
+	
+	for(j = 0; j < strlen(b); j++){ //calculating the second value
+		if(b[j] == '.'){
+			valueb = atof(b);
+			flag++;
 		}
-		if(cy == 0)
-		{
-			y = atoi(b);
+		if(flag == 0){
+			valueb = atoi(b);
 		}
 	}
 	
-	for(k = 0; k < strlen(c); k++)
-	{
-		if(c[k] == '.')
-		{
-			z = atof(c);
-			cz++;
+	flag = 0;
+	
+	for(k = 0; k < strlen(c); k++){ //calculating the third value
+		if(c[k] == '.'){
+			valuec = atof(c);
+			flag++;
 		}
-		if(cz == 0)
-		{
-			z = atoi(c);
+		if(flag == 0){
+			valuec = atoi(c);
 		}
 	}
 	
-	for(l = 0; l < strlen(d); l++)
-	{
-		if(d[l] == '.')
-		{
-			w = atof(d);
-			cd++;
+	flag = 0;
+	
+	for(l = 0; l < strlen(d); l++){ //calculating the fourth value
+		if(d[l] == '.'){
+			valued = atof(d);
+			flag++;
 		}
-		if(cd == 0)
-		{
-			w = atoi(d);
+		if(flag == 0){
+			valued = atoi(d);
 		}
 	}
 
-	soma = x + y + z + w;
+	sum = valuea + valueb + valuec + valued;
 	
-	printf("%lf", soma);
+	printf("%.2lf\n", sum);
 
 	return 0;
 }

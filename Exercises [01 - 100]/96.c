@@ -1,8 +1,7 @@
 /*
 
  	Example:  Make a program that reads a long whole number representing a person's ID and then 
- 	shows the number of times each digit appears in the ID. Follow the output format presented 
- 	in the Moodle example. 
+ 	shows the number of times each digit appears in the ID.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -22,44 +21,43 @@ int main()
 	char a[100];
 	int i, x0, x1, x2, x3, x4, x5, x6, x7, x8, x9; 
 	
-	fgets(a, 100, stdin);
+	printf("Enter your registration number: \n");
+	scanf("%s", a);
 	
 	x0 = x1 = x2 = x3 = x4 = x5 = x6 = x7 = x8 = x9 = 0;
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		switch(a[i])
-		{
+	for(i = 0; i < strlen(a); i++){
+		switch(a[i]){
 			case '0':
-			x0++;
-			break;
+				x0++;
+				break;
 			case '1':
-			x1++;
-			break;
+				x1++;
+				break;
 			case '2':
-			x2++;
-			break;
+				x2++;
+				break;
 			case '3':
-			x3++;
-			break;
+				x3++;
+				break;
 			case '4':
-			x4++;
-			break;
+				x4++;
+				break;
 			case '5':
-			x5++;
-			break;
+				x5++;
+				break;
 			case '6':
-			x6++;
-			break;
+				x6++;
+				break;
 			case '7':
-			x7++;
-			break;
+				x7++;
+				break;
 			case '8':
-			x8++;
-			break;
+				x8++;
+				break;
 			case '9':
-			x9++;
-			break;
+				x9++;
+				break;
 		}
 	} 
 	

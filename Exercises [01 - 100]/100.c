@@ -18,22 +18,19 @@
 #include<string.h>
 int main()
 {
-	char a[100], b[100];
-	int i;
+	char stringa[100], stringb[100];
 	
-	fgets(a, 100, stdin);
-	fgets(b, 100, stdin);
+	printf("Enter the first sentence:\n");
+	scanf("%[^\n]", stringa);
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(a[i] == '\n')
-		{
-			a[i] = ' ';
-		}
-	}
-	strcat(a, b);
+	printf("Enter the second sentence:\n");
+	scanf(" %[^\n]", stringb);
 	
-	printf("%s", a);
+	stringa[strlen(stringa)] = ' ';
+	
+	strcat(stringa, stringb);
+	
+	printf("%s\n", stringa);
 
 	return 0;
 }
