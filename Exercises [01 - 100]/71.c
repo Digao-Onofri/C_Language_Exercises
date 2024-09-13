@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 
  	Example:  Make a program that reads, indefinitely, integer values. Whenever the user enters 
  	a prime number, store it in a 10-position array. Once the tenth prime number is stored, 
@@ -10,6 +11,8 @@
 */
 
 /*
+=======
+>>>>>>> dbb24e3 (updates)
 	
 	Link for the script is on the video description!
 	Subscribe for regular content!
@@ -25,8 +28,8 @@ int main()
 	while(i < MAX){
         	control = 1;
         	scanf("%d", &prime);
-        	for(j = 2; j < prime; j++){ 
-        		if(prime % j == 0){
+        	for(j = 2; j < prime; j++){
+        		if(prime % j == 0){ //thats not a prime number
         			control = 0;
         	        	break;
            		}
@@ -36,6 +39,8 @@ int main()
             		i++; 
         	}
     	}
+    	
+    	printf("The prime numbers that you type are: \n");
 	
 	for(i = 0; i < MAX; i++){
 	    printf("%d ", a[i]);
