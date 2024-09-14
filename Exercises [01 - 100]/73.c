@@ -29,7 +29,7 @@ int main()
 		}
 	}
 	
-	printf("%d", control);
+	printf("The amount of values that are bigger than 10 is: %d\n", control);
 	
 	return 0;
 }

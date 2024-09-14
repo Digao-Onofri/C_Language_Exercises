@@ -21,14 +21,21 @@
 int main()
 {
 	int matrix[ROW][COL], i, j, biggest, posx, posy;
-	
+
+	//reading the values
+	for(i = 0; i < ROW; i++){
+		for(j = 0; j < COL; j++){
+			scanf("%d", &matrix[i][j]);
+		}
+	}
+		
 	biggest = matrix[0][0];
 	posx = 0;
 	posy = 0;
 	
+	//searching the biggest value
 	for(i = 0; i < ROW; i++){
 		for(j = 0; j < COL; j++){
-			scanf("%d", &matrix[i][j]);
 			if(biggest < matrix[i][j]){
 				biggest = matrix[i][j];
 				posx = i;
@@ -37,7 +44,8 @@ int main()
 		}
 	}
 	
-   	printf("The biggest value in the matrix is: %d\nThe row position is: %d\nThe column position is: %d", biggest, posx, posy);
+	
+   	printf("The biggest value in the matrix is: %d\nThe row position is: %d\nThe column position is: %d\n", biggest, posx, posy);
 
 	return 0;
 }

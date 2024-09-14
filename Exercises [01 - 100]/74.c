@@ -7,7 +7,6 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 /*
 	
 	Link for the script is on the video description!
@@ -15,16 +14,16 @@
 
 */
 #include<stdio.h>
-#define ROW 3 // Rows 
-#define COL 5 // Columns
+#define ROW 3 //Rows
+#define COL 5 //Columns
 int main()
 {
 	int matrix[ROW][COL], i, j, even = 0, odd = 0;
 	
-	for(i = 0; i < ROW; i++){
-		for(j = 0; j < COL; j++){
-			scanf("%d", &matrix[ROW][COL]);
-			if(matrix[ROW][COL] % 2 == 0){
+	for(i = 0; i < ROW; i++){ //rows 
+		for(j = 0; j < COL; j++){ //columns
+			scanf("%d", &matrix[i][j]);
+			if(matrix[i][j] % 2 == 0){
 				even++;
 			}
 			else{
@@ -33,7 +32,7 @@ int main()
 		}
 	}
 
-	printf("Amount of even numbers:%d\nAmount of odd numbers: %d\n", even, odd);
+	printf("Amount of even numbers: %d\nAmount of odd numbers: %d\n", even, odd);
 
 	return 0;
 }
