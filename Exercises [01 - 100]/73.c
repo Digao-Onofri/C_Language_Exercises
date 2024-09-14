@@ -2,7 +2,7 @@
 
  	Example:  Make a program that reads a 4x4 matrix of integers. Next, show as an answer how 
  	many values that is bigger than 10 are present in the matrix. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/EA1phZHZ3UI
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
