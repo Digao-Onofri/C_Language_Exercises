@@ -3,7 +3,7 @@
  	Example:  Make a program that reads a 3x5 matrix of integers. Next, show as an answer how 
  	many values even and how many odd values are present in the array. Print the response values 
  	in a single line, separated by a single space. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/EqzUIkYT-e8
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
