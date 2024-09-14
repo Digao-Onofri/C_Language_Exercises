@@ -4,7 +4,7 @@
  	a prime number, store it in a 10-position array. Once the tenth prime number is stored, 
  	close the reading and print, in a single line, the elements of the array separated from 
  	each other by a single space. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/bzh_MFlR3ys
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
