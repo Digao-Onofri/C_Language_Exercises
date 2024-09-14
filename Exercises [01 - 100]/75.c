@@ -20,7 +20,7 @@
 #define COL 5
 int main()
 {
-	int matrix[ROW][COL], i, j, biggest, posx, posy;
+	int matrix[ROW][COL], i, j, biggest, pos_row, pos_col;
 
 	//reading the values
 	for(i = 0; i < ROW; i++){
@@ -30,22 +30,22 @@ int main()
 	}
 		
 	biggest = matrix[0][0];
-	posx = 0;
-	posy = 0;
+	pos_row = 0;
+	pos_col = 0;
 	
 	//searching the biggest value
 	for(i = 0; i < ROW; i++){
 		for(j = 0; j < COL; j++){
 			if(biggest < matrix[i][j]){
 				biggest = matrix[i][j];
-				posx = i;
-				posy = j;
+				pos_row = i;
+				pos_col = j;
 			}
 		}
 	}
 	
 	
-   	printf("The biggest value in the matrix is: %d\nThe row position is: %d\nThe column position is: %d\n", biggest, posx, posy);
+   	printf("The biggest value in the matrix is: %d\nThe row position is: %d\nThe column position is: %d\n", biggest, pos_row, pos_col);
 
 	return 0;
 }
