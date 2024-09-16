@@ -29,18 +29,15 @@ int main()
 	
 	scanf("%s", a);
 	
-	for(i = 0; i < strlen(a); i++)
-	{
-		if(a[i] == 'a')
-		{
+	for(i = 0; i < strlen(a); i++){
+		if(a[i] == 'a'){
 			qtda++;
 		}	
 	}
 	
 	qtdx = strlen(a) - qtda;
 	
-	while(qtdx >= qtda)
-	{
+	while(qtdx >= qtda){
 		qtdx--;
 	}
 	
