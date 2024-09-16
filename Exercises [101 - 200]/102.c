@@ -27,48 +27,39 @@
 #include<string.h>
 int main()
 {
-	char t[100000], a[100000], b[100000], ss[100000];
+	char t[100000], first_half[100000], second_half[100000], ss[100000];
 	int i, j, k, check = 0;
 	
 	scanf("%s", t);
 	
-	for(i = 0, j = 0; i < strlen(t); i++)
-	{
-		if(t[i] != 'a')
-		{
+	for(i = 0, j = 0; i < strlen(t); i++){ //removing the a values and including in the array ss
+		if(t[i] != 'a'){
 			ss[j] = t[i];
 			j++;
 		}
 	}
 	
-	for(j = 0; j < strlen(ss) / 2; j++)
-	{
-		a[j] = ss[j];
+	for(j = 0; j < strlen(ss) / 2; j++){ //taking the first half part of the array ss
+		first_half[j] = ss[j];
 	}
 	
-	for(j = strlen(ss) / 2, k = 0; j <= strlen(ss); j++, k++)
-	{
-		b[k] = ss[j];
+	for(j = strlen(ss) / 2, k = 0; j <= strlen(ss); j++, k++){ //taking the second half part of the array ss
+		second_half[k] = ss[j];
 	}
 	
-	//comparison
-	for(j = 0, k = 0; j < strlen(b); j++, k++)
-	{
-		if(a[j] != b[k])
-		{
+	//comparison between the first half and the second half
+	for(j = 0, k = 0; j < strlen(second_half); j++, k++){
+		if(first_half[j] != second_half[k]){
 			check = 1;
 		}
 	}
 	
-	if(strlen(ss) % 2 == 1 || check == 1)
-	{
+	if(strlen(ss) % 2 == 1 || check == 1){
 		printf("-1");
 		return 0;
 	}
-	else if(check == 0)
-	{
-		for(i = 0; i < strlen(t) - (strlen(ss) / 2); i++)
-		{
+	else if(check == 0){
+		for(i = 0; i < strlen(t) - (strlen(ss) / 2); i++){ //printing the string S 
 			printf("%c", t[i]);
 		}
 	}
