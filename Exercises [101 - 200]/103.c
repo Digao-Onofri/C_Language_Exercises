@@ -16,16 +16,17 @@
 
 #include<stdio.h>
 
+typedef struct endereco{
+	char rua[100];
+	int num;
+} endereco;
+
 typedef struct pessoa{
 	char nome[50];
 	int idade;
 	endereco ender;
 	
 }pessoa;
-typedef struct endereco{
-	char rua[100];
-	int num;
-} endereco;
 
 int main()
 {
