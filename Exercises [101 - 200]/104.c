@@ -18,10 +18,9 @@
 #include<stdio.h>
 #define N 5
 
-typedef struct aluno
-{
+typedef struct aluno{
 	char nome[100];
-	char numm[100];
+	char enrol_num[100];
 	char curso[100];
 } aluno;
 
@@ -30,16 +29,14 @@ int main()
 	aluno a[N];
 	int i;
 	
-	for(i = 0; i < N; i++)
-	{
+	for(i = 0; i < N; i++){
 		scanf(" %[^\n]", a[i].nome);
-		scanf(" %s", a[i].numm);
+		scanf(" %s", a[i].enrol_num);
 		scanf(" %[^\n]", a[i].curso);
 	}
 	
-	for(i = 0; i < N; i++)
-	{
-		printf("Aluno %d:\nNome: %s\nMatricula: %s\nCurso: %s\n\n", i + 1, a[i].nome, a[i].numm, a[i].curso);
+	for(i = 0; i < N; i++){
+		printf("Aluno %d:\nNome: %s\nMatricula: %s\nCurso: %s\n\n", i + 1, a[i].nome, a[i].enrol_num, a[i].curso);
 	}
 
 	return 0;
