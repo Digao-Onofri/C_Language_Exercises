@@ -1,7 +1,7 @@
 /*
 
  	Example:  Make a program that reads a 3x3 matrix of integers. Show the value of the second 
- 	largest as an answer element present in the matrix, the row and column in which it is 
+ 	largest element present in the matrix as an answer, the row and column in which it is 
  	located. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
