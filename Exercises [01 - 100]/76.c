@@ -19,7 +19,7 @@
 #define MAX 3
 int main()
 {
-	int a[MAX][MAX], b[MAX][MAX], c[MAX][MAX], i, j, control;
+	int a[MAX][MAX], b[MAX][MAX], c[MAX][MAX], i, j;
 
 	printf("Enter the values of the matrix a:\n");
 	for(i = 0; i < MAX; i++){
@@ -29,7 +29,6 @@ int main()
 	} 
 
 	printf("Enter the values of the matrix b:\n");
-	
 	for(i = 0; i < MAX; i++){
 		for(j = 0; j < MAX; j++){
 			scanf("%d", &b[i][j]);
@@ -48,17 +47,11 @@ int main()
 	}
 
 	printf("The matrix with the biggest values is equal to:\n");
-	
-   	control = 0;
 	for(i = 0; i < MAX; i++){
 		for(j = 0; j < MAX; j++){      
                 	printf("%d ", c[i][j]);
-                	control++;
-		        if(control % 3 == 0){ // Just to print as a matrix on the terminal
-		            printf("\n");
-		        }
-				
 		}
+		printf("\n");
 	}
 
 	return 0;
