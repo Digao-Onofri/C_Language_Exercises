@@ -29,32 +29,32 @@ int main()
 		switch(a[i]){		
 			case 'a':
 			case 'A':
-			qtda++;
-			break;
+				qtda++;
+				break;
 			
 			case 'e':
 			case 'E':
-			qtde++;
-			break;
+				qtde++;
+				break;
 			
 			case 'o':
 			case 'O':
-			qtdo++;
-			break;
+				qtdo++;
+				break;
 			
 			case 'i':
 			case 'I':
-			qtdi++;
-			break;
+				qtdi++;
+				break;
 			
 			case 'u':	
 			case 'U':
-			qtdu++;
-			break;		
+				qtdu++;
+				break;		
 		}
 	} 
 	
-	printf("A = %d \nE = %d \nI = %d \nO = %d \nU = %d", qtda, qtde, qtdi, qtdo, qtdu);
+	printf("A = %d \nE = %d \nI = %d \nO = %d \nU = %d\n", qtda, qtde, qtdi, qtdo, qtdu);
 
 	return 0;
 }
