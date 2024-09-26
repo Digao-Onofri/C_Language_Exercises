@@ -19,34 +19,38 @@
 #define MAX 3
 int main()
 {
-	int a[MAX][MAX], i, j, largest, second_largest, row, col;
+	int a[MAX][MAX], i, j, largest, second_largest, row_largest, col_largest, row_second_largest, col_second_largest;
 	
-	for(i = 0 ; i < MAX; i++){
+	printf("Enter the values of the matrix a:\n");
+	for(i = 0 ; i < MAX; i++){ 
 		for(j = 0; j < MAX; j++){
-			printf("Enter the value placed on the position [%d][%d]\n", i, j);
-			scanf("%d", &a[i][j]);
+			scanf("%d", &a[i][j]); 
 		}
 	}
 	
 	largest = a[0][0];
+	row_largest = 0;
+	col_largest = 0;
 	
 	for(i = 0 ; i < MAX; i++){
 		for(j = 0; j < MAX; j++){
 			if(largest < a[i][j]){
 				second_largest = largest;
-				row = i;
-				col = j;
+				row_second_largest = row_largest;
+				col_second_largest = col_largest;
+				row_largest = i;
+				col_largest = j;
 				largest = a[i][j];
 			}
 			else if(second_largest < a[i][j]){
 				second_largest = a[i][j];
-				row = i;
-				col = j;
+				row_second_largest = i;
+				col_second_largest = j;
 			}
 		}
 	}	
 	
-	printf("The second largest value is: %d and it is placed in: [%d][%d]\n", second_largest, row, col);
+	printf("The second largest value is: %d and it is placed in: [%d][%d]\n", second_largest, row_second_largest, col_second_largest);
 
 	return 0;
 }
