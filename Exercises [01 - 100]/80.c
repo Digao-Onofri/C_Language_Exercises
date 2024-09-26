@@ -19,7 +19,8 @@
 #define MAX 3
 int main()
 {
-	int a[MAX][MAX], i, j, largest, second_largest, row_largest, col_largest, row_second_largest, col_second_largest;
+	int a[MAX][MAX], i, j, largest, row_largest, col_largest;
+	int second_largest, row_second_largest, col_second_largest;
 	
 	printf("Enter the values of the matrix a:\n");
 	for(i = 0 ; i < MAX; i++){ 
