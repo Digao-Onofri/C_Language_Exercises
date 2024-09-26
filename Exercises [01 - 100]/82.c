@@ -47,7 +47,7 @@ int main()
 	}	
 	
 	if(sum_main_diagonal != sum_secondary_diagonal){
-		printf("nao\n");
+		printf("no\n");
 		return 1;
 	}
 	
@@ -60,19 +60,19 @@ int main()
 		 	sum_col += a[j][i];
 		}
 		if(sum_main_diagonal != sum_row){
-			printf("nao\n");
+			printf("no\n");
 			check++;
 			break;
 		}
 		if(sum_main_diagonal != sum_col){
-			printf("nao\n");
+			printf("no\n");
 			check++;
 			break;
 		}
 	}
 	
 	if(check == 0){
-		printf("sim\n");
+		printf("yes\n");
 	}
 	
 	return 0;
