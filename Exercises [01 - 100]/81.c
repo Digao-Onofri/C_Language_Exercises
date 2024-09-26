@@ -33,46 +33,46 @@ int main()
 	control = 0;
 	//first line
 	if(a[0][0] == 1 && a[0][1] == 1 && a[0][2] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	//second line
 	else if(a[1][0] == 1 && a[1][1] == 1 && a[1][2] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	//third line		
 	else if(a[2][0] == 1 && a[2][1] == 1 && a[2][2] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	//first column
 	else if(a[0][0] == 1 && a[1][0] == 1 && a[2][0] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	//second column
 	else if(a[0][1] == 1 && a[1][1] == 1 && a[2][1] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	//third column
 	else if(a[0][2] == 1 && a[1][2] == 1 && a[2][2] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	//main diagonal
 	else if(a[0][0] == 1 && a[1][1] == 1 && a[2][2] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	//secondary diagonal
 	else if(a[0][2] == 1 && a[1][1] == 1 && a[2][0] == 1){
-		printf("sim");
+		printf("yes\n");
 		control = 1;
 	}
 	else if(control == 0){
-		printf("nao");
+		printf("no\n");
 	}
 	
 	return 0;
