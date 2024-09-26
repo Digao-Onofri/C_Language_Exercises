@@ -22,7 +22,6 @@ int main()
 	printf("Enter the values for the matrix A:\n");
 	for(i = 0; i < 3; i++){
 		for(j = 0; j < 5; j++){
-			printf("Enter the value placed in the position [%d][%d]\n", i, j);
 			scanf("%d", &a[i][j]);
 		}
 	}
