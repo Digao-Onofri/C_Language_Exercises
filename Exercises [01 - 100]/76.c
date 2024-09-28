@@ -3,18 +3,10 @@
  	Example:  Make a program that reads an A matrix of integers (3x3). Next, read a matrix B (3x3). 
   	Create a matrix C (3x3) composed of the largest values of each position of A and B. 
    	Print C as answer. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/ACdqQJk9SEE
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 3
 int main()
