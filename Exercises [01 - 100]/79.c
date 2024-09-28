@@ -2,18 +2,10 @@
 
  	Example:  Make a program that reads a 3x5 matrix of integers. Next, show the prime numbers
  	present in the matrix.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Z14M0Weu9FA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
