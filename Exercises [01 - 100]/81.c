@@ -4,18 +4,10 @@
  	elements 0 and 1 (not it is necessary to verify; Test cases will not "cheat" the entry), 
  	representing a "tic-tac-toe". Print only a "yes" or "no" (without accents) as an answer, 
  	informing if the "1" markings won the match. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/TBoJVEhtuXk
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 3
 int main()
