@@ -2,18 +2,10 @@
 
  	Example: Make a program that reads a matrix A of integers (3x3). Next, read a matrix B for integers (4x5).
   	Print, in a line, separated by single space, the elements of A that are not present in B. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/MUJhmpPiswM
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
