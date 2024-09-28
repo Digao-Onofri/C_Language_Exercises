@@ -3,18 +3,10 @@
  	Example:  Make a program that reads an A matrix of integers (2x4). Next, read a matrix B of 
  	integers (4x3). Print, in a line, separated by a single space, the elements common to A and 
  	B. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/cEZH7MLMBkA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
