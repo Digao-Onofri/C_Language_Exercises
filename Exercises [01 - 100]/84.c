@@ -1,7 +1,7 @@
 /*
 
- 	Example:Make a program that reads a sentence and counts how many vowels the sentence has in 
- 	total.
+ 	Example:Make a program that reads a sentence and counts how many specific vowels the sentence
+  	has in total.
  	Youtube lesson: https://youtu.be/1vs2jG6GA78
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
