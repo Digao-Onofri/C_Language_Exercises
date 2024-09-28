@@ -3,18 +3,10 @@
  	Example:  Make a program that reads a 3x3 matrix of integers. Show the value of the second 
  	largest element present in the matrix as an answer, the row and column in which it is 
  	located. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/UVmCW0bvCXA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define MAX 3
 int main()
