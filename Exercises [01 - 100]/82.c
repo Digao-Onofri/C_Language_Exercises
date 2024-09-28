@@ -4,18 +4,10 @@
  	Next, check if it forms a magic square. A magic square is one in which the sum of all the 
  	lines, all the columns and all diagonals are the same. Print only a "yes" or "no" (without 
  	accents) as an answer. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/BY4dLeBVv6s
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 //start of the program
 int main()
