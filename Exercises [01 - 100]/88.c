@@ -45,10 +45,10 @@ int main()
 
 	//comparison
 	if(strcmp(c, b) == 0){
-	    printf("sim");
+	    printf("yes\n");
 	}
 	else{
-	    printf("nao");
+	    printf("no\n");
 	}
 	
 	return 0;
