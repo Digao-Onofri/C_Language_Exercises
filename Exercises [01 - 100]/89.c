@@ -2,16 +2,9 @@
 
  	Example:  Read two sentences and show the difference in size between them. Your output 
  	should be in the pattern: "Sentence 1 has X characters more/less than sentence 2.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/ZLS7iWY98_Y
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<string.h>
