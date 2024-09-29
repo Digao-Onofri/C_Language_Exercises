@@ -1,18 +1,10 @@
 /*
 
  	Example:  Make a program that reads a sentence and prints it backwards. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/hA6ksqKXdRo
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 int main()
