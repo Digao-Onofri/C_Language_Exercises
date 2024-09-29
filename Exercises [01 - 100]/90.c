@@ -32,6 +32,7 @@ int main()
 			printf("%c", a[k]);
 		}
 	}
+	printf("\n");
 
 	return 0;
 }
