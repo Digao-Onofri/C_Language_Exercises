@@ -3,18 +3,10 @@
  	Example:  Make a program that reads a sentence (string) containing 4 real numerical double-
  	precision values, separated by spaces. Next, your program must separate each number from 
  	the others, convert it to numerical format, and display the sum of the numbers. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/AunYbX-F_Rg
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h> 
 #include<stdlib.h> 
