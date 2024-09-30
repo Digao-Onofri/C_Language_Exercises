@@ -3,16 +3,9 @@
  	Example:  Make a program that reads 4 integers in string format, computes the sum of the 
  	numbers read, converts the result to another string, and shows the string that contains the 
  	result. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/1yjgOaQ2Rfg
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<string.h>
