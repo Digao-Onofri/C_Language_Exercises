@@ -2,18 +2,10 @@
 
  	Example:  Make a program that reads 4 integers in string format, computes the sum of the 
  	numbers read, and shows the result obtained. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/bH4FbikjtP8
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
