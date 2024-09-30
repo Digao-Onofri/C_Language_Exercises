@@ -26,10 +26,11 @@ int main()
 	
 	printf("Enter the string b:\n");
 	scanf(" %[^\n]", b);
-	
+
+	//Running string b
 	for(i = 0; i < strlen(b); i++){
 		check = 0;
-		for(j = 0; j < strlen(a); j++){
+		for(j = 0; j < strlen(a); j++){ //Running string a
 			if(b[i + j] != a[j]){
 				check = 1;
 				break;	
