@@ -34,15 +34,15 @@ int main()
 		if(qtd == 0) {
 			a[i] = sentence[i];
 		}
-		if(qtd == 1){
+		else if(qtd == 1){
 			b[j] = sentence[i + 1];
 			j++;
 		}
-		if(qtd == 2){
+		else if(qtd == 2){
 			c[k] = sentence[i + 1];
 			k++;
 		}
-		if(qtd == 3){
+		else if(qtd == 3){
 			d[l] = sentence[i];
 			l++;
 		}
