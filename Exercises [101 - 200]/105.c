@@ -23,15 +23,15 @@
 #include<string.h>
 #define N 5
 
-typedef struct aluno{
+typedef struct student{
 	char enrol_num[50];
 	char name[50];
 	float n1, n2, n3;
-} aluno;
+} student;
 
 int main()
 {
-	aluno a[N];
+	student a[N];
 	int i, idx = 0;
 	float average = 0, grade = 0, biggest;
 	
