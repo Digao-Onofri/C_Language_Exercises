@@ -40,6 +40,7 @@ int main()
 	int i;
 	
 	for(i = 0; i < N; i++){
+		printf("Enter the radius and the argument in degrees:\n");
 		scanf("%f %f", &polar[i].r, &polar[i].a);
 		polar[i].a = polar[i].a * acos(-1) / 180; //changing degrees to radian
 	}
