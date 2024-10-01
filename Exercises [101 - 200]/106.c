@@ -21,8 +21,8 @@
 
 #include<stdio.h>
 #include<string.h>
-#include<math.h>
-#define N 6
+#include<math.h> //Pi = acos(-1)
+#define N 6 
 
 typedef struct polar{
 	float r;
@@ -35,24 +35,24 @@ typedef struct cartesian{
 
 int main()
 {
-	polar v[N];
-	cartesian x[N];
+	polar polar[N];
+	cartesian cartesian[N];
 	int i;
 	
 	for(i = 0; i < N; i++){
-		scanf("%f %f", &v[i].r, &v[i].a);
-		v[i].a = v[i].a * acos(-1) / 180;
+		scanf("%f %f", &polar[i].r, &polar[i].a);
+		polar[i].a = polar[i].a * acos(-1) / 180; //changing degrees to radian
 	}
 	
 	//Converting Points to Cartesian Coordinates
 	for(i = 0; i < N; i++){	
-		x[i].x = v[i].r * cos(v[i].a);
-		x[i].y = v[i].r * sin(v[i].a);
+		cartesian[i].x = polar[i].r * cos(polar[i].a);
+		cartesian[i].y = polar[i].r * sin(polar[i].a);
 	}
 	
 	//printing the cartesian coordinates 
 	for(i = 0; i < N; i++){
-		printf("(%.2f, %.2f)\n", x[i].x, x[i].y);
+		printf("(%.2f, %.2f)\n", cartesian[i].x, cartesian[i].y);
 	}
 
 	return 0;
