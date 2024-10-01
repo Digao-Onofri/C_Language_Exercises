@@ -16,28 +16,28 @@
 
 #include<stdio.h>
 
-typedef struct endereco{
-	char rua[100];
+typedef struct address{
+	char street[100];
 	int num;
-} endereco;
+} address;
 
-typedef struct pessoa{
-	char nome[50];
-	int idade;
-	endereco ender;
+typedef struct person{
+	char name[50];
+	int age;
+	address ender;
 	
-}pessoa;
+}person;
 
 int main()
 {
-	pessoa a;
+	person a;
 	
-	scanf("%[^\n]", a.nome);
-	scanf(" %d", &a.idade);
-	scanf(" %[^\n]", a.ender.rua);
+	scanf("%[^\n]", a.name);
+	scanf(" %d", &a.age);
+	scanf(" %[^\n]", a.ender.street);
 	scanf(" %d", &a.ender.num);
 	
-	printf("Nome: %s\nIdade: %d\nEndereco: %s, %d", a.nome, a.idade, a.ender.rua, a.ender.num);
+	printf("Name: %s\nAge: %d\nAddress: %s, %d", a.name, a.age, a.ender.street, a.ender.num);
 
 	return 0;
 }
