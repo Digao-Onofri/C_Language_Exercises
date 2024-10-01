@@ -36,8 +36,11 @@ int main()
 	float average = 0, grade = 0, biggest;
 	
 	for(i = 0; i < N; i++){
+		printf("Enter your enrollment number:\n");
 		scanf(" %s", a[i].enrol_num);
+		printf("Enter your name:\n");
 		scanf(" %[^\n]", a[i].name);
+		printf("Enter your three grades:\n");
 		scanf(" %f %f %f", &a[i].n1, &a[i].n2, &a[i].n3);
 	}
 	
@@ -64,7 +67,7 @@ int main()
 		average = 0;
 	}
 	
-	printf("Biggest average: %s\nValor: %.2f\n\n", a[idx].name, biggest);
+	printf("Biggest average: %s\nValue: %.2f\n\n", a[idx].name, biggest);
 	
 	//Checking if the student gets the minimum average
 	for(i = 0; i < N; i++){   
