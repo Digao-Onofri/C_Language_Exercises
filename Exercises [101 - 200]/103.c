@@ -31,10 +31,17 @@ typedef struct person{
 int main()
 {
 	person a;
-	
+
+	printf("Enter your name:\n");
 	scanf("%[^\n]", a.name);
+	
+	printf("Enter your age:\n");
 	scanf(" %d", &a.age);
+	
+	printf("Enter your street:\n");
 	scanf(" %[^\n]", a.ender.street);
+	
+	printf("Enter the number:\n");
 	scanf(" %d", &a.ender.num);
 	
 	printf("Name: %s\nAge: %d\nAddress: %s, %d", a.name, a.age, a.ender.street, a.ender.num);
