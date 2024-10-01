@@ -24,39 +24,34 @@
 #include<math.h>
 #define N 6
 
-typedef struct polares
-{
+typedef struct polar{
 	float r;
 	float a;	
-} polares;
+} polar;
 
-typedef struct cartesianas
-{
+typedef struct cartesian{
 	float x, y;
-} cartesianas;
+} cartesian;
 
 int main()
 {
-	polares v[N];
-	cartesianas x[N];
+	polar v[N];
+	cartesian x[N];
 	int i;
 	
-	for(i = 0; i < N; i++)
-	{
+	for(i = 0; i < N; i++){
 		scanf("%f %f", &v[i].r, &v[i].a);
 		v[i].a = v[i].a * acos(-1) / 180;
 	}
 	
 	//Converting Points to Cartesian Coordinates
-	for(i = 0; i < N; i++)
-	{	
+	for(i = 0; i < N; i++){	
 		x[i].x = v[i].r * cos(v[i].a);
 		x[i].y = v[i].r * sin(v[i].a);
 	}
 	
 	//printing the cartesian coordinates 
-	for(i = 0; i < N; i++)
-	{
+	for(i = 0; i < N; i++){
 		printf("(%.2f, %.2f)\n", x[i].x, x[i].y);
 	}
 
