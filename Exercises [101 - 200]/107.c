@@ -1,6 +1,6 @@
 /*
 
- 	Example: Using a structure vector, make a program that reads the name and phone number of 
+ 	Example: Using a structure array, make a program that reads the name and phone number of 
 	5 people and print them alphabetically by name. Tip: Search for the usage details of 
 	strcmp() function.
  	Youtube lesson: 

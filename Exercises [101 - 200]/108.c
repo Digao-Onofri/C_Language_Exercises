@@ -20,19 +20,19 @@
 #define N 8
 typedef struct cars{
 	char brand[50];
-	float price
+	float price;
 	int year;
 } cars;
 
 int main(){
-	cars v[N];
+	cars array[N];
 	int i;
 	float price;
 	
 	for(i = 0; i < N; i++){
-		scanf(" %[^\n]", v[i].brand);  
-		scanf(" %f", &v[i].price);
-		scanf(" %d", &v[i].year);
+		scanf(" %[^\n]", array[i].brand);  
+		scanf(" %f", &array[i].price);
+		scanf(" %d", &array[i].year);
 	}
 	
 	scanf(" %f", &price);
@@ -40,8 +40,8 @@ int main(){
 		printf("Cars with price lower than %.2f:\n", price);
 		//searching values under the price and printing on stdout
 		for(i = 0; i < N; i++){
-			if(price > v[i].price && price > 0){
-				printf("%s %.2f %.2f\n", price, v[i].brand, v[i].price, v[i].year);
+			if(price > array[i].price && price > 0){
+				printf("%s %.2f %d\n", array[i].brand, array[i].price, array[i].year);
 			}
 		}
 		printf("\n");
