@@ -30,7 +30,7 @@ int main(){
 	int i, j, check = 0;
 	
 	for(i = 0; i < N; i++){
-		pritnf("Enter your name:\n");
+		printf("Enter your name:\n");
 		scanf(" %[^\n]", array[i].name);
 		printf("Enter you phone:\n");
 		scanf(" %[^\n]", array[i].phone);
