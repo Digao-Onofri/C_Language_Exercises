@@ -1,8 +1,8 @@
 /*
 
- 	Example: Utilizando um vetor de estrutura, faça um programa que leia o nome e o telefone de 
- 	5 pessoas e os imprima em ordem alfabética pelo nome. Dica: pesquise os detalhes de uso da 
- 	função strcmp(). 
+ 	Example: Using a structure vector, make a program that reads the name and phone number of 
+	5 people and print them alphabetically by name. Tip: Search for the usage details of 
+	strcmp() function.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
