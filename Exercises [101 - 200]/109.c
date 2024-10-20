@@ -19,36 +19,30 @@
 #include<string.h>
 #define N 8
 
-typedef struct livros
-{
-	char titulo[100];
-	char autor[50];
-	int ano;
+typedef struct books{
+	char title[100];
+	char author[50];
+	int year;
 
-} livros;
+} books;
 
-int main()
-{
-	livros v[N];
+int main(){
+	books v[N];
 	int i;
-	char a[50], b[5] = "sair";
+	char a[50], b[7] = "go out";
 	
-	for(i = 0; i < N; i++)
-	{
-		scanf(" %[^\n]", v[i].titulo);
-		scanf(" %[^\n]", v[i].autor);
-		scanf(" %d", &v[i].ano);
+	for(i = 0; i < N; i++){
+		scanf(" %[^\n]", v[i].title);
+		scanf(" %[^\n]", v[i].author);
+		scanf(" %d", &v[i].year);
 	}
 	
 	scanf(" %[^\n]", a);
-	while(strcmp(a, b) != 0)
-	{
-		printf("Livros de %s:\n", a);
-		for(i = 0; i < N; i++)
-		{	
-			if(strcmp(v[i].autor, a) == 0)
-			{
-				printf("%s (%d)\n\n", v[i].titulo, v[i].ano);
+	while(strcmp(a, b) != 0){
+		printf("Books of %s:\n", a);
+		for(i = 0; i < N; i++){	
+			if(strcmp(v[i].autor, a) == 0){
+				printf("%s (%d)\n\n", v[i].title, v[i].year);
 			}	
 		}
 		printf("\n");

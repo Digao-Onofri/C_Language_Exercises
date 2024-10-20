@@ -30,7 +30,9 @@ int main(){
 	int i, j, check = 0;
 	
 	for(i = 0; i < N; i++){
+		pritnf("Enter your name:\n");
 		scanf(" %[^\n]", v[i].name);
+		printf("Enter you phone:\n");
 		scanf(" %[^\n]", v[i].phone);
 	}
 	
@@ -46,7 +48,7 @@ int main(){
 		}
 	}
 	
-	//printing
+	//printing the names in alphabetical order
 	for(i = 0; i < N; i++){
 		printf("%s %s\n", v[i].name, v[i].phone);
 	}
