@@ -31,9 +31,9 @@ int main(){
 	
 	for(i = 0; i < N; i++){
 		pritnf("Enter your name:\n");
-		scanf(" %[^\n]", v[i].name);
+		scanf(" %[^\n]", array[i].name);
 		printf("Enter you phone:\n");
-		scanf(" %[^\n]", v[i].phone);
+		scanf(" %[^\n]", array[i].phone);
 	}
 	
 	//organizing the clients by alphabetical order
