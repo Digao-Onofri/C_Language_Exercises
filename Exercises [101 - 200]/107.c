@@ -26,7 +26,7 @@ typedef struct client{
 
 
 int main(){	
-	client v[N], aux;
+	client array[N], aux;
 	int i, j, check = 0;
 	
 	for(i = 0; i < N; i++){
@@ -39,18 +39,18 @@ int main(){
 	//organizing the clients by alphabetical order
 	for(i = 0; i < N; i++){
 		for(j = i + 1; j < N; j++){
-			check = strcmp(v[i].name, v[j].name);
+			check = strcmp(array[i].name, array[j].name);
 			if(check > 0){	
-				aux = v[i];
-				v[i] = v[j];
-				v[j] = aux;
+				aux = array[i];
+				array[i] = array[j];
+				array[j] = aux;
 			} 
 		}
 	}
 	
 	//printing the names in alphabetical order
 	for(i = 0; i < N; i++){
-		printf("%s %s\n", v[i].name, v[i].phone);
+		printf("%s %s\n", array[i].name, array[i].phone);
 	}
 	
 	return 0;
