@@ -26,7 +26,8 @@ int main()
 	printf("Enter the second sentence:\n");
 	scanf(" %[^\n]", stringb);
 	
-	stringa[strlen(stringa)] = ' ';
+	stringa[strlen(stringa) + 1] = '\0';
+	stringa[strlen(stringa)] = ' '; 
 	
 	strcat(stringa, stringb);
 	
