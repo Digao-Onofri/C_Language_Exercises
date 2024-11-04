@@ -20,18 +20,17 @@ int main()
 	int a, b;
 	int *p = NULL, *i = NULL;
 	
+	printf("Enter the values for a and b:\n");
 	scanf("%d %d", &a, &b);
 	
 	p = &a;
 	i = &b;
 	
-	if(p > i)
-	{
-		printf("%p", p);
+	if(p > i){
+		printf("%d\n", *p);
 	}
-	else
-	{
-		printf("%p", i);
+	else{
+		printf("%d\n", *i);
 	}
 
 	return 0;

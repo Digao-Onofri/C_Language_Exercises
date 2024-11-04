@@ -1,8 +1,8 @@
 /*
 
- 	Example: Declare um vetor de inteiros com 10 posições, leia e armazene valores em cada 
- 	posição. A seguir, utilizando apenas ponteiros de int troque o segundo maior elemento de 
- 	posição com o segundo menor elemento. 
+ 	Example: Declare an array of integers with 10 positions, than read and storage values 
+ 	for each position. Next, using only integer pointers change the position of the second 
+ 	biggest value int the array by the second lowest value. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -17,54 +17,46 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-int main()
-{
-	int v[10], aux, *sma, *sme, *ma, *me;
+int main(){
+	int array[10], aux, *second_biggest, *second_smallest, *biggest, *smallest;
 	int i;
 	
-	for(i = 0; i < 10; i++)
-	{
-		scanf("%d", &v[i]);
+	for(i = 0; i < 10; i++){
+		scanf("%d", &array[i]);
 	}
 	
-	ma = me = sma = sme = v;
+	second_biggest = array;
+	second_smallest = array;
+	biggest = array;
+	smallest = array;
 	
-	for(i = 0; i < 10; i++)
-	{
-		if(*ma < v[i])
-		{
-			sma = ma;
-			ma = &v[i];
-			printf("ma!! %d %d %d\n", i, *sma, *ma);
+	for(i = 0; i < 10; i++){
+		if(*biggest < array[i]){
+			second_biggest = biggest;
+			biggest = &array[i];
 		}
-		else if(*sma < v[i])
-		{
-			sma = &v[i]; 
-			printf("sma!! %d %d %d\n", i, *sma, *ma);
+		else if(*second_biggest < array[i]){
+			second_biggest = &array[i]; 
 		}
 		
-		if(*me > v[i])
-		{
-			sme = me;
-			me = &v[i];
-			printf("me!! %d %d %d\n", i, *sme, *me);
+		if(*smallest > array[i]){
+			second_smallest = smallest;
+			smallest = &array[i];
 		}
-		else if(*sme > v[i])
-		{
-			sme = &v[i]; 
-			printf("sme!! %d %d %d\n", i, *sme, *me);
+		else if(*second_smallest > array[i]){
+			second_smallest = &array[i]; 
 		}
 		
 	}
 	
-	aux = *sma;
-	*sma = *sme;
-	*sme = aux;
+	aux = *second_biggest;
+	*second_biggest = *second_smallest;
+	*second_smallest = aux;
 	
-	for(i = 0; i < 10; i++)
-	{
-		printf("%d", v[i]);
+	for(i = 0; i < 10; i++){
+		printf("- %d ", array[i]);
 	}
+	
 	
 	return 0;
 }

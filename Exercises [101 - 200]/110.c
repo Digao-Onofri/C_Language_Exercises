@@ -16,42 +16,42 @@
 
 */
 
-typedef struct nc
-{
-	float r;
-	float i;
-} nc;
+typedef struct complex_numbers{
+	float real;
+	float imagine;
+} complex_numbers;
 
 #include<stdio.h>
-int main()
-{
-	nc v[2];
+int main(){
+	complex_numbers v[2];
 	int j;
-	float s, d, m, si, di, mi;
+	float sum_real, sum_imagine;
+	float dif_real, dif_imagine;
+	float mult_real, mult_imagine;
 	
-	for(j = 0; j < 2; j++)
-	{
-		scanf(" %f", &v[j].r);
-		scanf(" %f", &v[j].i);
+	
+	for(j = 0; j < 2; j++){
+		scanf(" %f", &v[j].real);
+		scanf(" %f", &v[j].imagine);
 	}
 	
-	s = si = d = di = m = mi = 0;
+	sum_real = sum_imagine = 0;
+	dif_real = dif_imagine = 0;
+	mult_real = mult_imagine = 0;
 	//calculating and printing de sum
-	s = (v[0].r + (v[1].r));
-	si = (v[0].i + (v[1].i));
-    	printf("Soma: %f + ", s);
-	printf("(%f)i\n", si);
+	sum_real = (v[0].real + (v[1].real));
+	sum_imagine = (v[0].imagine + (v[1].imagine));
+    	printf("Sum: %f + (%f)i\n", sum_real, sum_imagine);
 
 	//calculating and printing the difference
-	d = (v[0].r - (v[1].r)); 
-	di = (v[0].i - (v[1].i));
-	printf("Subtracao: %f + ", d);
-	printf("(%f)i\n", di);
+	dif_real = (v[0].real - (v[1].real)); 
+	dif_imagine = (v[0].imagine - (v[1].imagine));
+	printf("Difference: %f + (%f)i\n", dif_real, dif_imagine);
+	
 	//calculating and printing the multiplication
-	m = ( v[0].r * (v[1].r) ) - ( v[0].i * (v[1].i) ); 
-	mi = ( v[0].r * (v[1].i) ) +   ( v[1].r * (v[0].i) ) ;
-	printf("Produto: %f + ", m);
-	printf("(%f)i\n", mi);
+	mult_real = ( v[0].real * (v[1].real) ) - ( v[0].imagine * (v[1].imagine) ); 
+	mult_imagine = ( v[0].real * (v[1].imagine) ) +   ( v[1].real * (v[0].imagine) ) ;
+	printf("Multiplication: %f + (%f)i\n", mult_real, mult_imagine);
 	
 	return 0;
 }

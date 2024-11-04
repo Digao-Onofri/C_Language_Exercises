@@ -1,6 +1,6 @@
 /*
 
- 	Example:  Declare a vector of integers with 10 positions, read and store values at each 
+ 	Example:  Declare an array of integers with 10 positions, read and store values at each 
  	position. Then, using an int pointer, add one unit to each position of the vector. Print the 
  	vector before and after the modification. 
  	Youtube lesson: 
@@ -17,33 +17,25 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-int main()
-{
-	int v[10], i;
+int main(){
+	int array[10], i;
 	int *p;
 	
-	for(i = 0; i < 10; i++)
-	{
-		scanf("%d", &v[i]);
+	for(i = 0; i < 10; i++){
+		scanf("%d", &array[i]);
 	
 	}
 	
-	printf("-----\n");
-	
-	//array before add 1 to each position
-	for(i = 0; i < 10; i++)
-	{
-		printf("%d\n", v[i]);
-	}
-	
-	printf("-----\n");
+	printf("\n");
+	printf("After adding 1 to each value:\n");
 	
 	//adding 1 to each position
-	for(i = 0; i < 10; i++)
-	{	
-		p = &v[i];
-		printf("%d\n", *p + 1);
+	for(i = 0; i < 10; i++){	
+		p = &array[i];
+		*p = *p + 1;
+		printf("- %d ", array[i]);
 	}
 	
+	printf("\n");
 	return 0;
 }

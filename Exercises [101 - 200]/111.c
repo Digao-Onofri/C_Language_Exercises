@@ -18,19 +18,17 @@
 
 int main()
 {
-	int a = 2, b = 3;
-	int *p = NULL, *i = NULL;
+	int a, b;
+	void *p = NULL, *i = NULL;
 	
-	p = &a;
-	i = &b;
+	p = &a; //Will point to the memory adress of a
+	i = &b; //Will point to the memory adress of b
 	
-	if(p > i)
-	{
-		printf("%p", p);
+	if(p > i){ 
+		printf("%p\n", p);
 	}
-	else
-	{
-		printf("%p", i);
+	else{
+		printf("%p\n", i);
 	}
 
 	return 0;

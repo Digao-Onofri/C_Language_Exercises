@@ -27,13 +27,13 @@ int main()
 	i = &b;
 	j = &c;
 	
-	printf("%d\n%f\n%c\n\n", *p, *i, *j);
+	printf("Int: %d\nFloat: %f\nChar: %c\n\n", *p, *i, *j);
 	
 	*p = 9;
 	*i = 5.8;
 	*j = 'f';
 	
-	printf("%d\n%f\n%c\n", *p, *i, *j);
+	printf("Int: %d\nFloat: %f\nChar: %c\n\n", *p, *i, *j);
 	
 	return 0;
 }

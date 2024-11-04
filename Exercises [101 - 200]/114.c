@@ -1,8 +1,8 @@
 /*
 
- 	Example:  Declare a vector of integers with 10 positions, read and store values at each 
+ 	Example:  Declare an array of integers with 10 positions, read and store values at each 
  	position. Below Using an int pointer, display the address and contents of each position in 
- 	the vector. 
+ 	the array. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -16,20 +16,19 @@
 */
 #include<stdio.h>
 #include<stdlib.h>
-int main()
-{
-	int v[10], i;
+int main(){
+	int array[10], i;
 	int *p;
+	void *j;
 	
-	for(i = 0; i < 10; i++)
-	{
-		scanf("%d", &v[i]);
+	for(i = 0; i < 10; i++){
+		scanf("%d", &array[i]);
 	}
 	
-	for(i = 0; i < 10; i++)
-	{
-		p = &v[i];
-		printf("%p %d\n", p, *p);
+	for(i = 0; i < 10; i++){
+		j = &array[i];
+		p = &array[i];
+		printf("Adress: %p - Value: %d\n", j, *p);
 	}
 	
 	return 0;
