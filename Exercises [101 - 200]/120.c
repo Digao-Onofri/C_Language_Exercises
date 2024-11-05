@@ -1,7 +1,7 @@
 /*
 
- 	Example:  Write a program that declares a double vector of size N (user-reported) and a 
- 	pointer to an integer. Using only pointer arithmetic, read the vector and show the average 
+ 	Example:  Write a program that declares a double array of size N (user-reported) and a 
+ 	pointer to an integer. Using only pointer arithmetic, read the array and show the average 
  	of the Elements. Next, store the index of the element that has the closest value to the mean 
  	in the pointer and display it. 
  	Youtube lesson: 
@@ -23,22 +23,22 @@ int main() {
 	
 	scanf("%d", &N);
 	
-	double v[N], *l, med, soma;
+	double array[N], *l, avg, sum;
 	
 	for(i = 0; i < N; i++){
-		scanf("%lf", &v[i]);
-		l = &v[i];
-		soma = soma + *l;
+		scanf("%lf", &array[i]);
+		l = &array[i];
+		sum = sum + *l;
 	}
 	
-	med = soma / N;
-	printf("Average: %lf\n", med);
+	avg = sum / N;
+	printf("Aarrayerage: %lf\n", avg);
 	
 	for(i = 0; i < N; i++){
 		for(j = i + 1; j < N; j++){
-			if(fabs (v[i] - med) > fabs (v[j] - med))
+			if(fabs (array[i] - avg) > fabs (array[j] - avg))
 			{	
-				l = &v[j];
+				l = &array[j];
 			}
 		}
 		

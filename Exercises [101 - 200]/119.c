@@ -1,6 +1,6 @@
 /*
 
- 	Example:  Make a program using pointers to order 5 numbers stored in a vector and show them 
+ 	Example:  Make a program using pointers to order 5 numbers stored in an array and show them 
  	ordered on the screen. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
@@ -15,23 +15,20 @@
 */
 
 #include<stdio.h>
-int main()
-{
-	int v[5];
+int main(){
+	int array[5];
 	int i, j, *p, *k, aux;
-	
+
+	printf("Enter 5 integers:\n");
 	for(i = 0; i < 5; i++){
-		scanf("%d", &v[i]);
+		scanf("%d", &array[i]);
 	}
 	
-	for(i = 0; i < 5; i++)
-	{
-		p = &v[i];
-		for(j = i + 1; j < 5; j++)
-		{
-			k = &v[j];
-			if(*p > *k)
-			{
+	for(i = 0; i < 5; i++){
+		p = &array[i];
+		for(j = i + 1; j < 5; j++){
+			k = &array[j];
+			if(*p > *k){
 				aux = *k;
 				*k = *p;
 				*p = aux;
@@ -40,12 +37,9 @@ int main()
 		}
 	}
 	
-	
 	for(i = 0; i < 5; i++){
-		printf("%d ", v[i]);
+		printf("%d ", array[i]);
 	}
-
-
 
 	return 0;
 }
