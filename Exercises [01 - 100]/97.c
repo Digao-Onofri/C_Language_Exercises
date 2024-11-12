@@ -2,16 +2,9 @@
 
  	Example:  Make a program that receives a sentence and shows the number of words typed in the 
  	sentence. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Lp50r7m8Jkg
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<string.h>
