@@ -2,18 +2,10 @@
 
  	Example:  Make a program that reads a long whole number representing a person's ID and then 
  	shows the number of times each digit appears in the ID.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/jtQZnVpH_TU
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 int main()
