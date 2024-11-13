@@ -2,18 +2,10 @@
 
  	Example:  Make a program that takes a sentence and shows the number of lowercase and 
  	uppercase letters typed. Print the two values on one line, separated by a single space. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/m8QKf886Pzc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
