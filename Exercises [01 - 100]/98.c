@@ -2,16 +2,9 @@
 
  	Example:  Make a program that takes a sentence and converts the first letter of each word to 
  	uppercase. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/BVf-jAZ-KuQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<string.h>
