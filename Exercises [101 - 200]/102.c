@@ -3,18 +3,10 @@
  	Example:  Alice wants to type her name with upper and lower caracters, but then all the 
  	caracters has to be in upper case. Your mission is to corretly change all the caracters to 	
  	upper case.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/b4UHZo5zwUk
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
