@@ -3,18 +3,10 @@
  	Example:  Create a structure to store a student's data: name, enrollment number, and course. 
  	Read the information from 5 students and store it in an array of this structure. Next, print 
  	the data of all students on the screen. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/nbRiT3oQ2Ac
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #define N 5
 
