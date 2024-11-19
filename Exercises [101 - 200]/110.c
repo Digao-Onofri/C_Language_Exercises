@@ -16,12 +16,13 @@
 
 */
 
+#include<stdio.h>
+
 typedef struct complex_numbers{
 	float real;
 	float imagine;
 } complex_numbers;
 
-#include<stdio.h>
 int main(){
 	complex_numbers v[2];
 	int j;

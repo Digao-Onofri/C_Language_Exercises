@@ -31,7 +31,7 @@ int main(){
 	
 	for(i = 0; i < N; i++){
 		printf("Enter your name:\n");
-		scanf(" %[^\n]", array[i].name);
+		scanf(" %[^\n]", array[i].name); 
 		printf("Enter you phone:\n");
 		scanf(" %[^\n]", array[i].phone);
 	}
@@ -41,7 +41,7 @@ int main(){
 		for(j = i + 1; j < N; j++){
 			check = strcmp(array[i].name, array[j].name);
 			if(check > 0){	
-				aux = array[i];
+				aux = array[i]; 
 				array[i] = array[j];
 				array[j] = aux;
 			} 

@@ -17,7 +17,7 @@
 
 #include<stdio.h>
 #include<string.h>
-#define N 2
+#define N 8
 
 typedef struct books{
 	char title[100];
@@ -42,7 +42,7 @@ int main(){
 	
 	printf("Enter the author:\n");
 	scanf(" %[^\n]", author);
-	while(strcmp(author, b) != 0){
+	while(strcmp(author, b) != 0){ 
 		printf("Books of %s:\n", author);
 		for(i = 0; i < N; i++){	
 			if(strcmp(v[i].author, author) == 0){

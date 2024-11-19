@@ -18,6 +18,7 @@
 #include<stdio.h>
 #include<string.h>
 #define N 8
+
 typedef struct cars{
 	char brand[50];
 	float price;
@@ -31,7 +32,7 @@ int main(){
 	
 	for(i = 0; i < N; i++){
 		printf("Enter the car brand:\n");
-		scanf(" %[^\n]", array[i].brand);
+		scanf(" %[^\n]", array[i].brand); 
 		printf("Enter the car price:\n");
 		scanf(" %f", &array[i].price);
 		printf("Enter the car year:\n");
@@ -49,6 +50,7 @@ int main(){
 			}
 		}
 		printf("\n");
+		printf("Enter a price:\n");
 		scanf("%f", &price);
 	}
 	

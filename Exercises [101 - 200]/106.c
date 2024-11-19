@@ -2,8 +2,8 @@
 
  	Example:  Create a structure to represent points in polar coordinates: radius r and argument 
  	a (in degrees). Create a structure to represent points in Cartesian coordinates: x and y. 
- 	Read 6 points in polar coordinates and store in a vector. Next, convert these points to 
- 	Cartesian coordinates and store the result in another vector. The conversion is given by: x 
+ 	Read 6 points in polar coordinates and store in an array. Next, convert these points to 
+ 	Cartesian coordinates and store the result in another array. The conversion is given by: x 
  	= r * cos(a) and y = r * sin(a). Finally, show the result of each point in Cartesian 
  	coordinates (x, y), with 2 decimal places. Remember that the argument value must be in 
  	radians to use the cos and sin functions. 
