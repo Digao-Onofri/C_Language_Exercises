@@ -2,16 +2,9 @@
 
  	Example:  Make a program that reads a person's name, age, and address (street and number) 
  	and stores the data in a structure. Show stored information on the screen 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/ge2CLJfP6jo
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 
 #include<stdio.h>
