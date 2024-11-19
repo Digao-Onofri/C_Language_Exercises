@@ -21,7 +21,7 @@
 
 #include<stdio.h>
 #include<string.h>
-#define N 5
+#define N 2
 
 typedef struct student{
 	char enrol_num[50];
@@ -33,7 +33,7 @@ int main()
 {
 	student a[N];
 	int i, idx = 0;
-	float average = 0, grade = 0, biggest;
+	float average = 0, grade = 0, biggest = 0;
 	
 	for(i = 0; i < N; i++){
 		printf("Enter your enrollment number:\n");

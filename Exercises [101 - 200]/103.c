@@ -25,7 +25,6 @@ typedef struct person{
 	char name[50];
 	int age;
 	address ender;
-	
 }person;
 
 int main()
@@ -33,7 +32,7 @@ int main()
 	person a;
 
 	printf("Enter your name:\n");
-	scanf("%[^\n]", a.name);
+	scanf("%[^\n]", a.name); 
 	
 	printf("Enter your age:\n");
 	scanf(" %d", &a.age);

@@ -1,7 +1,7 @@
 /*
 
  	Example:  Create a structure to store a student's data: name, enrollment number, and course. 
- 	Read the information from 5 students and store it in a vector of this structure. Next, print 
+ 	Read the information from 5 students and store it in an array of this structure. Next, print 
  	the data of all students on the screen. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
@@ -39,7 +39,7 @@ int main()
 	}
 	
 	for(i = 0; i < N; i++){
-		printf("Student %d:\nName: %s\nEnrollment number: %s\nCourse: %s\n\n", i + 1, a[i].name, a[i].enrol_num, a[i].course);
+		printf("\nStudent %d:\nName: %s\nEnrollment number: %s\nCourse: %s\n\n", i + 1, a[i].name, a[i].enrol_num, a[i].course);
 	}
 
 	return 0;
