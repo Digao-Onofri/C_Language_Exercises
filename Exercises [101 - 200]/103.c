@@ -44,7 +44,7 @@ int main()
 	printf("Enter the number:\n");
 	scanf(" %d", &a.ender.num);
 	
-	printf("Name: %s\nAge: %d\nAddress: %s, %d", a.name, a.age, a.ender.street, a.ender.num);
+	printf("Name: %s\nAge: %d\nAddress: %s, %d\n", a.name, a.age, a.ender.street, a.ender.num);
 
 	return 0;
 }
