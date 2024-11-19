@@ -7,18 +7,10 @@
  	his full name, followed by the average, with 2 decimal places. d) print a list of enrollment 
  	and name, also saying whether each student was approved or failed, considering at least 60% 
  	of the average for approval 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/QI4LUqwqBRM
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #define N 5
