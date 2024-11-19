@@ -21,7 +21,7 @@
 
 #include<stdio.h>
 #include<string.h>
-#define N 2
+#define N 5
 
 typedef struct student{
 	char enrol_num[50];
