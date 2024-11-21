@@ -3,18 +3,10 @@
  	Example:  Make a program that reads a structure array with the data of 8 cars: brand, price 
  	and year. Next, read a P-value and show the information for all cars with a price lower than 
  	P. Repeat this process until a P-value ≤ 0 is read. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Wo0Lu0OqxCM
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content! 
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #define N 8
