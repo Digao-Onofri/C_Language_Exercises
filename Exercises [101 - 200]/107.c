@@ -3,27 +3,19 @@
  	Example: Using a structure array, make a program that reads the name and phone number of 
 	5 people and print them alphabetically by name. Tip: Search for the usage details of 
 	strcmp() function.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/lAGm0-218xU
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #define N 5
+
 typedef struct client{
 	char name[50];
 	char phone[50];
 	
 } client;
-
 
 int main(){	
 	client array[N], aux;
