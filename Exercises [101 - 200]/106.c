@@ -7,18 +7,10 @@
  	= r * cos(a) and y = r * sin(a). Finally, show the result of each point in Cartesian 
  	coordinates (x, y), with 2 decimal places. Remember that the argument value must be in 
  	radians to use the cos and sin functions. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/hfgOWMW-KkQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #include<math.h> //Pi = acos(-1)
