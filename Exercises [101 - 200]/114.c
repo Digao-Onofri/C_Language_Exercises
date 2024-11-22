@@ -3,16 +3,9 @@
  	Example:  Declare an array of integers with 10 positions, read and store values at each 
  	position. Below Using an int pointer, display the address and contents of each position in 
  	the array. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/_Q5mY_S_bRU
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<stdlib.h>
