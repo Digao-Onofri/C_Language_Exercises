@@ -4,18 +4,10 @@
  	imaginary part. Next, read two complex numbers (real part followed by imaginary part of each 
  	one). Present as an answer the addition, subtraction and product of complex numbers, being 
  	one value per line. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/hH91lTKLseI
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 
 typedef struct complex_numbers{
