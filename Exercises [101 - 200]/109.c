@@ -3,18 +3,10 @@
  	Example:  In a structure array, store the following information about 8 books: title, 
  	author, and year. Next, read an author's name and show the titles and years of the books 
  	written by him. Repeat the process until the user types "sign out". 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/vYb1rWJZmcw
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #define N 8
