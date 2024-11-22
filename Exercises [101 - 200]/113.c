@@ -4,18 +4,10 @@
  	these variables. Associate the variables with the pointers. Modify the values of each 
  	variable using the pointers. Print the values of the variables before and after the 
  	modification. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/fsfX2lfWgV4
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
