@@ -2,18 +2,10 @@
 
  	Example: Write a program that contains two integer variables. Read these variables, compare 
  	your addresses, and display the contents of the largest address  
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/_l1_g6dLACY
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main()
 {
