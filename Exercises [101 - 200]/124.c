@@ -2,7 +2,7 @@
 
  	Example:  Make a program that declares a structure for the registration of N students, where 
  	the user informs N. Store the following information about the students: enrollment, full 
- 	name, and date of birth. Using pointer arithmetic, read the information from N students, and 
+ 	name, and age. Using pointer arithmetic, read the information from N students, and 
  	then show the name of the oldest student and the youngest student. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
@@ -19,36 +19,39 @@
 #include<stdio.h>
 #include<string.h>
 
-typedef struct cadastro {
-	char mat[50];
-	char nome[50];
-	int nas;
-} cadastro;
+typedef struct registration {
+	char enroll[50];
+	char name[50];
+	int age;
+} registration;
 
 int main() {
 	int N;
 	printf("Amount of registers:\n");
 	scanf("%d", &N);
 	
-	cadastro v[N];
-	int i, *p, idx = 0, mn = 0;
+	registration v[N];
+	int i, *p, bigger = 0, lower = 0;
 	
 	for(i = 0; i < N; i++) {
-		scanf(" %s", &v[i].mat);
-		scanf(" %[^\n]", &v[i].nome);
-		scanf(" %d", &v[i].nas);
+		printf("Enter the enrollment number:\n");
+		scanf(" %s", v[i].enroll);
+		printf("Enter the name:\n");
+		scanf(" %[^\n]", v[i].name);
+		printf("Enter the age:\n");
+		scanf(" %d", &v[i].age);
 	}
 	
 	for(i = 0; i < N; i++) {
-		p = &v[i].nas;
-		if(*p < v[i + 1].nas) {
-			idx++;
-			mn = i;
+		p = &v[i].age;
+		if(*p < v[i + 1].age) {
+			bigger = i + 1;
+			lower = i;
 		}
 	}
 	
-	printf("Oldest: %s\n", v[mn].nome);
-	printf("Newest: %s\n", v[idx].nome);
+	printf("Oldest: %s\n", v[bigger].name);
+	printf("Newest: %s\n", v[lower].name);
 
 	return 0;
 }

@@ -45,7 +45,7 @@ int main() {
 	printf("Amount of even: %d\n", even);
 	printf("Amount of odds: %d\n", odd);
 
-	//free the memory alocated for the array v
+	//free the memory allocated for the array v
 	free(v);
 	
 	return 0;

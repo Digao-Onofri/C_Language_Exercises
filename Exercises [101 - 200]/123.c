@@ -26,14 +26,14 @@ int main() {
 	int *bet, *p;
 	int s[25] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25};
 	
-	//alocating memory for the input array
+	//allocating memory for the input array
 	bet = malloc(15 * sizeof(int));
 	printf("Enter 15 bet values between 1 to 25\n");
 	for(i = 0; i < 15; i++) {
 		scanf(" %d", (bet + i));
 	}
 	
-	//alocating memory for the array with random values
+	//allocating memory for the array with random values
 	p = malloc(15 * sizeof(int));
 
 	/*return a value with the amount 
