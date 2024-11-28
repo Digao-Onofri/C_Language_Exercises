@@ -1,8 +1,8 @@
 /*
 
- 	Example:  Write a program that declares two int vectors of size M and N (informed by the 
+ 	Example:  Write a program that declares two int arrays of size M and N (informed by the 
  	user), reads their elements, and, using only pointer arithmetic, computes and shows: a) the 
- 	union of their elements. b) the intersection. c) the difference from the first vector to 
+ 	union of their elements. b) the intersection. c) the difference from the first array to 
  	the second. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
@@ -20,9 +20,8 @@
 #include<stdlib.h>
 int main() {
 	int a, b;
-	int *v1, *v2, *u;
+	int *v1, *v2;
 	int i, j, check = 0;
-	
 	
 	printf("Enter the size of array (a) and (b):\n");
 	scanf("%d %d", &a, &b);
@@ -39,7 +38,6 @@ int main() {
 	for(j = 0; j < b; j++) {
 		scanf("%d", (v2 + j));
 	}
-	
 	
 	printf("Union: ");
 	//printing the union of the elements
@@ -61,10 +59,9 @@ int main() {
 		}
 	}
 	
-	
 	printf("\n");
 	
-	printf("Intersection:");
+	printf("Intersection: ");
 	//calculating the intesection of the elements
 	for(i = 0; i < a; i++) {
 		for(j = 0; j < b; j++) {
@@ -75,10 +72,9 @@ int main() {
 		}
 	}
 	
-	
 	printf("\n");
 	
-	printf("Difference:");
+	printf("Difference: ");
 	//calculating the difference between arrays
 	for(i = 0; i < a; i++) {
 		check = 0;
@@ -93,6 +89,8 @@ int main() {
 			printf("%d", *(v1 + i));
 		}
 	}
+
+	printf("\n");
 	
 	free(v1);
 	free(v2);
