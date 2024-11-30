@@ -3,18 +3,10 @@
  	Example: Declare an array of integers with 10 positions, than read and storage values 
  	for each position. Next, using only integer pointers change the position of the second 
  	biggest value in the array by the second lowest value. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/DnaQ6HAb7Dc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
