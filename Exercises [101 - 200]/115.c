@@ -3,18 +3,10 @@
  	Example:  Declare an array of integers with 10 positions, read and store values at each 
  	position. Then, using an int pointer, add one unit to each position of the array. Print the 
  	array before and after the modification. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/lYcTlwFG1k0
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
