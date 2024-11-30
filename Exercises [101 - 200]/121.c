@@ -4,18 +4,10 @@
  	user), reads their elements, and, using only pointer arithmetic, computes and shows: a) the 
  	union of their elements. b) the intersection. c) the difference from the first array to 
  	the second. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/AeFqLJGp_gI
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 int main() {
