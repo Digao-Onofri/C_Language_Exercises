@@ -4,18 +4,10 @@
  	pointer to an integer. Using only pointer arithmetic, read the array and show the average 
  	of the Elements. Next, store the index of the element that has the closest value to the mean 
  	in the pointer and display it. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/1aCE0wNqsCU
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<math.h>
 int main() {
