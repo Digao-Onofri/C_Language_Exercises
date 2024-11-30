@@ -2,18 +2,10 @@
 
  	Example:  Make a program using pointers to order 5 numbers stored in an array and show them 
  	ordered on the screen. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/m4y3Vn3X-3s
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 int main(){
 	int array[5];
