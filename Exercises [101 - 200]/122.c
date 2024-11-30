@@ -24,7 +24,7 @@ int main() {
 	printf("Enter an integer:\n");
 	scanf("%d", &a);
 	
-	v = malloc(a * sizeof(int));
+	v = (int *) malloc(a * sizeof(int));
 	
 	printf("Enter the values of array (a):\n");	
 	//reading the values of array a
@@ -32,7 +32,7 @@ int main() {
 		scanf("%d", (v + i));
 	}
 	
-	//checking amount of pairs and odd
+	//checking amount of even and odd
 	for(i = 0; i < a; i++){
 		if(*(v + i) % 2 == 0){ 
 			even++;
