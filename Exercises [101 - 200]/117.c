@@ -3,7 +3,7 @@
  	Example:  Declare an array of integers with 10 positions, read and store values at each 
  	position. Then, using only int pointers, add one unit to the content of each position of the 
  	array if the content is even; multiply by 2 if it is odd. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/H70M8U5ijDE
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
