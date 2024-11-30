@@ -3,18 +3,10 @@
  	Example:  Make a program that reads from the user a number N and dynamically allocates an 
  	array of N Positions. Using pointer arithmetic, read the array and show how many of the 
  	stored numbers are even and how many are odd. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/g_ZY9lP2akM
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 int main() {
