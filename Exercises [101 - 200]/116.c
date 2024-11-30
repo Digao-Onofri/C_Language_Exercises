@@ -2,18 +2,10 @@
 
  	Example:  Using only pointers, write a program that reads a sentence of up to 80 characters 
  	and prints it in reverse order by converting all lowercase characters to uppercase. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/s9okU0SriUA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
