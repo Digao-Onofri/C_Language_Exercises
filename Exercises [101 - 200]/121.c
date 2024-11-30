@@ -24,10 +24,10 @@ int main() {
 	int i, j, check = 0;
 	
 	printf("Enter the size of array (a) and (b):\n");
-	scanf("%d %d", &a, &b);
+	scanf("%d %d", &a, &b); 
 	
-	v1 = malloc(a * sizeof(int));
-	v2 = malloc(b * sizeof(int));	
+	v1 = (int *) malloc(a * sizeof(int));
+	v2 = (int *) malloc(b * sizeof(int));	
 	
 	printf("Enter the values of array (a):\n");	
 	for(i = 0; i < a; i++) {
@@ -45,16 +45,14 @@ int main() {
 		printf("%d ", *(v1 + i));
 	}
 
-	for(j = 0; j < b; j++) {
+	for(j = 0; j < b; j++) { 
 		check = 0;
 		for(i = 0; i < a; i++) {
-			if(*(v1 + i) == *(v2 + j)) 
-			{
+			if(*(v1 + i) == *(v2 + j)) {
 				check = 1;
 			}
 		}
-		if(check == 0)
-		{
+		if(check == 0){
 			printf("%d ", *(v2 + j));
 		}
 	}
@@ -65,8 +63,7 @@ int main() {
 	//calculating the intesection of the elements
 	for(i = 0; i < a; i++) {
 		for(j = 0; j < b; j++) {
-			if(*(v1 + i) == *(v2 + j))
-			{
+			if(*(v1 + i) == *(v2 + j)){
 				printf("%d ", *(v1 + i));	
 			}
 		}
@@ -79,14 +76,12 @@ int main() {
 	for(i = 0; i < a; i++) {
 		check = 0;
 		for(j = 0; j < b; j++) {
-			if(*(v1 + i) == *(v2 + j))
-			{
+			if(*(v1 + i) == *(v2 + j)){
 				check = 1;	
 			}
 		}
-		if(check == 0)
-		{
-			printf("%d", *(v1 + i));
+		if(check == 0){
+			printf("%d ", *(v1 + i));
 		}
 	}
 

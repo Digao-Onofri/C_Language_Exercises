@@ -29,10 +29,9 @@ int main(){
 		for(j = i + 1; j < 5; j++){
 			k = &array[j];
 			if(*p > *k){
-				aux = *k;
+				aux = *k; 
 				*k = *p;
 				*p = aux;
-				
 			}
 		}
 	}
@@ -40,6 +39,8 @@ int main(){
 	for(i = 0; i < 5; i++){
 		printf("%d ", array[i]);
 	}
+	
+	printf("\n");
 
 	return 0;
 }

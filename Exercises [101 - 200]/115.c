@@ -1,8 +1,8 @@
 /*
 
  	Example:  Declare an array of integers with 10 positions, read and store values at each 
- 	position. Then, using an int pointer, add one unit to each position of the vector. Print the 
- 	vector before and after the modification. 
+ 	position. Then, using an int pointer, add one unit to each position of the array. Print the 
+ 	array before and after the modification. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -23,7 +23,6 @@ int main(){
 	
 	for(i = 0; i < 10; i++){
 		scanf("%d", &array[i]);
-	
 	}
 	
 	printf("\n");
@@ -33,7 +32,7 @@ int main(){
 	for(i = 0; i < 10; i++){	
 		p = &array[i];
 		*p = *p + 1;
-		printf("- %d ", array[i]);
+		printf("%d ", array[i]);
 	}
 	
 	printf("\n");

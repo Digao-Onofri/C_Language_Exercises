@@ -16,8 +16,7 @@
 */
 
 #include<stdio.h>
-int main()
-{
+int main(){
 	int array[10], *p, i;
 	
 	printf("Enter 10 values:\n");
@@ -27,11 +26,11 @@ int main()
 	
 	for(i = 0; i < 10; i++){
 		p = &array[i];
-		if(*p % 2 == 0){
+		if(*p % 2 == 0){ 
 			*p = *p + 1;
 			printf("Even (value + 1): %d\n", array[i]);
 		}
-		else{
+		else{ 
 			*p = *p * 2;
 			printf("Odd  (value * 2): %d \n", array[i]);
 		}

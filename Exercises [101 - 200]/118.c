@@ -2,7 +2,7 @@
 
  	Example: Declare an array of integers with 10 positions, than read and storage values 
  	for each position. Next, using only integer pointers change the position of the second 
- 	biggest value int the array by the second lowest value. 
+ 	biggest value in the array by the second lowest value. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -49,14 +49,16 @@ int main(){
 		
 	}
 	
+	//changing the positions
 	aux = *second_biggest;
 	*second_biggest = *second_smallest;
 	*second_smallest = aux;
 	
 	for(i = 0; i < 10; i++){
-		printf("- %d ", array[i]);
+		printf("%d ", array[i]);
 	}
 	
+	printf("\n");
 	
 	return 0;
 }

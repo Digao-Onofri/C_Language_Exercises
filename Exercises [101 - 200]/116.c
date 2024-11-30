@@ -24,15 +24,17 @@ int main(){
 	printf("Enter the sentence:\n");
 	scanf("%[^\n]", array);
 	
-	for(i = strlen(array) - 1; i >= 0; i--){
+	for(i = strlen(array) - 1; i >= 0; i--){ 
 		p = &array[i];
 		if(isupper(*p)){
 			printf("%c", *p);
 		}
-		else{
+		else{ 
 			printf("%c", toupper(*p));
 		}
 	}
+	
+	printf("\n");
 	
 	return 0;
 }

@@ -19,32 +19,34 @@
 #include<stdio.h>
 #include<math.h>
 int main() {
-	int N, i, j, *p, aux;
+	int N, i;
 	
+	printf("Enter the lenght of the array:\n");
 	scanf("%d", &N);
 	
-	double array[N], *l, avg, sum;
+	double array[N], *p, *closest, mean, avg, sum;
 	
+	printf("Enter the values of the array:\n");
 	for(i = 0; i < N; i++){
 		scanf("%lf", &array[i]);
-		l = &array[i];
-		sum = sum + *l;
+		p = &array[i];
+		sum = sum + *p;
 	}
 	
 	avg = sum / N;
-	printf("Aarrayerage: %lf\n", avg);
+	printf("Array average: %lf\n", avg);
 	
+	closest = array;
 	for(i = 0; i < N; i++){
-		for(j = i + 1; j < N; j++){
-			if(fabs (array[i] - avg) > fabs (array[j] - avg))
-			{	
-				l = &array[j];
-			}
+		p = &array[i];
+		mean = (*closest - avg);
+		if(mean > fabs(*p - avg)){
+			closest = p;
 		}
-		
 	}
 	
-	printf("%lf", *l);
+	printf("%lf", *closest);
+	printf("\n");
 	
 	return 0;
 }
