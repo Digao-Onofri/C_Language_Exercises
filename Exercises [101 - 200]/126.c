@@ -31,7 +31,7 @@ int main() {
 	if(mat == NULL){
 		exit(1);
 	}
-	for(i = 0; i < row; i++){
+	for(i = 0; i < col; i++){
 		mat[i] = (int*)malloc(col * sizeof(int));
 		//checking if the computer give memory for the cols
 		if(mat[i] == NULL){
