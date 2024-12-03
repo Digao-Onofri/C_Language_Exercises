@@ -1,8 +1,7 @@
 /*
 
  	Example:  Make a function that takes a value N and returns the sum of the squares of the 
- 	numbers 1 to N. In Moodle, enter only your function, which should have the following 
- 	signature: int squares(int n) 
+ 	numbers 1 to N. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -17,26 +16,27 @@
 
 #include<stdio.h>
 
-int quadrados(int n);
+int squares(int n);
 
 int main() {
-	int n, soma;
+	int n, sum;
 	
+	printf("Enter an integer:\n");
 	scanf("%d", &n);
 	
-	soma = quadrados(n);
+	sum = squares(n);
 	
-	printf("%d", soma);
+	printf("The sum of the squares of 1 to %d is: %d\n", n, sum);
 	
 	return 0;
 }
 
-int quadrados(int n) {
-	int i, soma = 0;
+int squares(int n) {
+	int i, sum = 0;
 	
 	for(i = 1; i <= n; i++) {
-		soma = soma + (i * i); 
+		sum = sum + (i * i); 
 	}
 	
-	return soma;
+	return sum;
 }

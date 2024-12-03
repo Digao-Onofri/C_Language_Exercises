@@ -1,7 +1,6 @@
 /*
 
- 	Example:   Make a function that takes mmm integer and returns the sum of its digits. In 
- 	Moodle, enter Your full Program (Main + roles). 
+ 	Example:   Make a function that takes an integer and returns the sum of its digits. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -15,31 +14,30 @@
 */
 #include<stdio.h>
 
-int soma(int num);
+int sum(int num);
 
 int main() {
-	int num;
-	int answer;
+	int num = 0;
+	int answer = 0;
 	
+	printf("Enter an number:\n");
 	scanf("%d", &num);
 
-	answer = soma(num);
+	answer = sum(num);
 	
-	printf("%d", answer);
-
-
+	printf("The sum of the digits of %d is: %d\n", num, answer);
 
 	return 0;
 }
 
-int soma(int num) {
-	int soma;
+int sum(int num) {
+	int sum = 0;
 	
 	while(num > 0) {
-		soma += num % 10;
+		sum += num % 10;
 		num -= num % 10;
 		num = num / 10;
 	} 
 		
-	return soma;
+	return sum;
 }

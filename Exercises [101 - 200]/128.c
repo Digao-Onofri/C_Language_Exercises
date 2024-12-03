@@ -1,13 +1,13 @@
 /*
 
  	Example:  Make a program that reads numbers from the keyboard and stores them in an 
- 	allocated vector dynamically. The user will enter a sequence of numbers, with no limit, and 
+ 	allocated array dynamically. The user will enter a sequence of numbers, with no limit, and 
  	the entry of a negative value ends the reading. The data should be stored in memory as 
- 	follows: • Start with a dynamically allocated vector of size 10. • After this vector is 
- 	full, allocate a new vector of the size of the previous vector by adding space for 10 more 
+ 	follows: • Start with a dynamically allocated array of size 10. • After this array is 
+ 	full, allocate a new array of the size of the previous array by adding space for 10 more 
  	positions. • Copy the previously typed values to this new, larger area and free up the 
  	initial memory. • Repeat the procedure of dynamically expanding with 10 more values whenever 
- 	the vector is full. 
+ 	the array is full. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -24,35 +24,35 @@
 #include<stdlib.h>
 
 int main() {
-	int *p = NULL;
-	int *q = NULL;
-	int *t = NULL;
-	int x, i, qtd, tam;
+	int *first = NULL;
+	int *new = NULL;
+	int x, i, qtd, lenght = 10;
 	
-	p = malloc(tam * sizeof(int));
+	first = malloc(lenght * sizeof(int));
 	
 	scanf("%d", &x);
-	while( x > 0) {
-		p[qtd] = x;
+	while(x > 0) {
+		first[qtd] = x;
 		qtd++;
 		if(qtd % 10 == 0) {		
-			tam += 10;
-			q = malloc(tam * sizeof(int));
-			for(i = 0; i < tam -1; i++) q[i] = p[i];
-			t = p;
-			p = q;
-			q = t;
+			lenght += 10;
+			new = malloc(lenght * sizeof(int));
+			for(i = 0; i < lenght - 1; i++) {
+				new[i] = first[i];
+			}
+			first = new;
 		
-			free(q);
-			t = q = NULL;
+			free(new);
+			new = NULL;
 		}
 		
 		scanf("%d", &x);
 	}
 	
-	for(i = 0; i < qtd; i++) printf(">> %d\n", p[i]);
+	for(i = 0; i < qtd; i++) {
+		printf(">> %d\n", first[i]);
+	}
+	free(first);
 
-	free(p);
-	
 	return 0;
 }

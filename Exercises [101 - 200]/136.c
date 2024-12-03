@@ -1,8 +1,7 @@
 /*
 
- 	Example:   Make a function that takes mmm number N and returns the number of prime numbers 
- 	smaller than existing N. In Moodle, enter only your role, which should have the following 
- 	Signature: Int Qtdprimos(Int N) 
+ 	Example:   Make a function that takes a number N and returns the number of prime numbers 
+ 	smaller than existing N. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -16,21 +15,22 @@
 */
 #include<stdio.h>
 
-int qtdprimos(int n);
+int primes(int n);
 
 int main() {
 	int n, answer;
 	
+	printf("Enter an integer:\n");
 	scanf("%d", &n);
 	
-	answer = qtdprimos(n);
+	answer = primes(n);
 
 	printf("%d\n", answer);
 		
 	return 0;
 }
 
-int qtdprimos(int n) {
+int primes(int n) {
 	int qtd = 0, i, j, check;
 	
 	for(i = 2; i <= n; i++) {

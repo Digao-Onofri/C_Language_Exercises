@@ -16,20 +16,22 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main() {
-	int **mat, row, col, i, j, aux;
+	int **mat, **transpose, row, col, i, j;
 
 	printf("Enter the amount of rows and columns:\n");
 	scanf("%d %d", &row, &col);
 	
 	mat = (int **)malloc(row * sizeof(int *));
+	transpose = (int **)malloc(row * sizeof(int *));
 	//checking if the computer give memory for the rows
-	if(mat == NULL){
+	if(mat == NULL || transpose == NULL){
 		exit(1);
 	}
 	for(i = 0; i < col; i++){
 		mat[i] = (int *)malloc(col * sizeof(int));
+		transpose[i] = (int *)malloc(col * sizeof(int));
 		//checking if the computer give memory for the cols
-		if(mat[i] == NULL){
+		if(mat[i] == NULL || transpose[i] == NULL){
 			exit(1);
 		}
 	}
@@ -41,20 +43,17 @@ int main() {
 		}
 	}
 
-	for(i = 0; i < row * col; i++) {
+	for(i = 0; i < row; i++) {
 		for(j = 0; j < col; j++){
-			if(i != j){
-				/*aux = mat[i][j];
-				mat[i][j] = mat[j][i];
-				mat[j][i] = aux;*/
-			}
+			transpose[j][i] = mat[i][j];
 		}
 	}
 	
+	printf("Transpose of the matrix:\n");
 	//printing the matrix transpose
 	for(i = 0; i < row; i++) {
 		for(j = 0; j < col; j++){
-			printf("%d ", mat[i][j]);
+			printf("%d ", transpose[i][j]);
 		}
 		printf("\n");
 	}
@@ -62,9 +61,11 @@ int main() {
 	//free the memory allocated for the columns
 	for(i = 0; i < col; i++){
 		free(mat[i]);
+		free(transpose[i]);
 	}
 	//free the memory allocated for the rows
 	free(mat);
+	free(transpose);
 
 	return 0;
 }

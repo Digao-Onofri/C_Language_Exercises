@@ -2,7 +2,7 @@
 
  	Example:  Make a function that receives a date and displays it on the screen in full textual 
  	format. Example: for 01/01/2000, print: January 1, 2000. Your scanf should read the date in 
- 	dd/mm/yyyy format. In Moodle, Enter your full program (Main + Functions). 
+ 	dd/mm/yyyy format.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -17,61 +17,61 @@
 
 #include<stdio.h>
 
-char *getmes(int mes);
+char * getmonth(int month);
 
 int main() {
-	char *answer;
-	int dia, mes, ano;
+	char * answer;
+	int day, month, year;
 	
-	scanf("%d/%d/%d", &dia, &mes, &ano);
+	scanf("%d/%d/%d", &day, &month, &year);
 	
-	answer = getmes(mes);
+	answer = getmonth(month);
 
-	printf("%d de %s de %d", dia, answer, ano);
+	printf("%s %d ,%d\n", answer, day, year);
 
 	return 0;
 }
 
-char *getmes(int mes) {
-	char* getmes;
-	switch(mes){
-		case 1 : mes = 1;
-			getmes = "janeiro";
+char * getmonth(int month) {
+	char * getmonth;
+	switch(month){
+		case 1 : month = 1;
+			getmonth = "January";
 			break;
-		case 2: mes = 2;
-			getmes = "fevereiro";
+		case 2: month = 2;
+			getmonth = "February";
 			break;
-		case 3: mes = 3;
-			getmes = "marco";
+		case 3: month = 3;
+			getmonth = "March";
 			break;
-		case 4: mes = 4;
-			getmes = "abril";
+		case 4: month = 4;
+			getmonth = "April";
 			break;
-		case 5: mes = 5;
-			getmes = "maio";
+		case 5: month = 5;
+			getmonth = "May";
 			break;
-		case 6: mes = 6;
-			getmes = "junho";
+		case 6: month = 6;
+			getmonth = "June";
 			break;
-		case 7: mes = 7;
-			getmes = "julho";
+		case 7: month = 7;
+			getmonth = "July";
 			break;
-		case 8: mes = 8;
-			getmes = "agosto";
+		case 8: month = 8;
+			getmonth = "August";
 			break;
-		case 9: mes = 9;
-			getmes = "setembro";
+		case 9: month = 9;
+			getmonth = "September";
 			break;
-		case 10:mes = 10;
-		getmes = "outubro";
+		case 10:month = 10;
+			getmonth = "October";
 			break;
-		case 11:mes = 11;
-			getmes = "novembro";
+		case 11:month = 11;
+			getmonth = "November";
 			break;
-		case 12:mes = 12;
-			getmes = "dezembro";
+		case 12:month = 12;
+			getmonth = "December";
 			break;
 	}
 	
-	return getmes;
+	return getmonth;
 }	
