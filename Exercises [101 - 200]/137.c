@@ -1,8 +1,7 @@
 /*
 
  	Example:  Make a function that takes a number N and returns the sum of the digits from the 
- 	factorial of N. In Moodle, Enter only your role, which should have the following signature: 
- 	int somafat(int n) 
+ 	factorial of N. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -16,22 +15,23 @@
 */
 #include<stdio.h>
 
-int somafat(int n);
+int sumfact(int n);
 
 int main() {
-	int n, answer;
+	int n, answer = 0;
 
+	printf("Enter an integer:\n");
 	scanf("%d", &n);
  
- 	answer = somafat(n);
+ 	answer = sumfact(n);
  
-	printf("%d", answer);
+	printf("The sum of the digits from the factorial of %d is: %d\n", n, answer);
 	
 	return 0;
 }
 
-int somafat(int n) {
-	int soma = 0, i;
+int sumfact(int n) {
+	int sum = 0, i;
 	long long int fat = 1;
 	
 	for(i = 1; i <= n; i++) {
@@ -39,10 +39,10 @@ int somafat(int n) {
 	}
 	
 	while(fat > 0) {
-		soma += fat % 10;
+		sum += fat % 10;
 		fat -= fat % 10;
 		fat = fat / 10;
 	}
 	
-	return soma;
+	return sum;
 }
