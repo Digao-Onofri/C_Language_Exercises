@@ -1,8 +1,7 @@
 /*
 
- 	Example:  Make a function that takes a vector of integers and their size, and returns the 
- 	value of the largest element present in the vector. In Moodle, enter only your role, which 
- 	should have the following signature: int maxvet(int *vet, int n) 
+ 	Example:  Make a function that takes a array of integers and their size, and returns the 
+ 	value of the largest element present in the array. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -18,38 +17,43 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int maxvet(int *vet, int n);
+int maxarray(int *array, int n);
 
 int main() {
-	int *vet;
+	int *array;
 	int n, i, answer;
 	
+	printf("Enter a size: \n");
 	scanf("%d", &n);
 	
-	vet = (int *)malloc(n * sizeof(int));
-	
+	array = (int *)malloc(n * sizeof(int));
+	if(array == NULL){
+		exit(1);
+	}
+
+	printf("Enter %d values:\n", n);
 	for(i = 0; i < n; i++) {
-		printf("Enter the value of v[%d]\n", i);
-		scanf("%d", (vet + i));
+		scanf("%d", (array + i));
 	}
 	
-	answer = maxvet(vet, n);
+	answer = maxarray(array, n);
 	
-	printf("%d\n", answer);
-	
+	printf("Biggest value in the array is: %d\n", answer);
+	free(array);
+
 	return 0;
 }
 
-int maxvet(int *vet, int n) {
-	int i, maior; 
+int maxarray(int *array, int n) {
+	int i, biggest; 
 	
-	maior = *(vet + 0);
+	biggest = *(array + 0);
 	
 	for(i = 0; i < n; i++) {
-		if(maior < *(vet + i)) {
-			maior = *(vet + i);
+		if(biggest < *(array + i)) {
+			biggest = *(array + i);
 		}
 	}
 
-	return maior;
+	return biggest;
 }

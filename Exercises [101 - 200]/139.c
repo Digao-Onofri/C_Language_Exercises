@@ -1,8 +1,7 @@
 /*
 
- 	Example:  Make a function that takes a vector of integers and their size, and returns the 
- 	average of its elements. In Moodle, enter only your role, which should have the following 
- 	signature: double avgvet(int *vet, int n) 
+ 	Example:  Make a function that takes a array of integers and their size, and returns the 
+ 	average of its elements.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -18,35 +17,41 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-double avgvet(int *vet, int n);
+double avgarray(int *array, int n);
 
 int main() {
-	int *vet;
+	int *array;
 	int n, i;
-	double answer;
+	double answer = 0;
 	
+	printf("Enter a size:\n");
 	scanf("%d", &n);
 	
-	vet = (int *)malloc(n * sizeof(int));
+	array = (int *)malloc(n * sizeof(int));
+	if(array == NULL){
+		exit(1);
+	}
 	
+	
+	printf("Enter %d values:\n", n);
 	for(i = 0; i < n; i++) {
-		printf("Enter the value of v[%d]:\n", i);
-		scanf("%d", (vet + i));
+		scanf("%d", (array + i));
 	}
 
-	answer = avgvet(vet, n);
+	answer = avgarray(array, n);
 	
-	printf("%lf", answer);
+	printf("The average of the values in the array: %.2lf\n", answer);
+	free(array);
 
 	return 0;
-}
+} 
 
-double avgvet(int *vet, int n) {
+double avgarray(int *array, int n) {
 	int i;
-	double answer;
+	double answer = 0;
 	
 	for(i = 0; i < n; i++) {
-		answer = answer + (double) *(vet + i) / n;
+		answer = answer + (double) *(array + i) / n;
 	}
 
 	return answer;
