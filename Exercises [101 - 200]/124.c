@@ -31,7 +31,7 @@ int main() {
 	scanf("%d", &N);
 	
 	registration v[N];
-	int i, *p, bigger = 0, lower = 0;
+	int i, *bigger, *smaller, biggest = 0, smallest = 0;
 	
 	for(i = 0; i < N; i++) {
 		printf("Enter the enrollment number:\n");
@@ -42,16 +42,21 @@ int main() {
 		scanf(" %d", &v[i].age);
 	}
 	
+	bigger = &v[0].age;
+	smaller = &v[0].age;
 	for(i = 0; i < N; i++) {
-		p = &v[i].age;
-		if(*p < v[i + 1].age) {
-			bigger = i + 1;
-			lower = i;
+		if(*bigger < v[i].age) {
+			biggest = i;
+			bigger = &v[i].age;
+		}
+		if(*smaller > v[i].age){
+			smallest = i;
+			smaller = &[i].age;
 		}
 	}
 	
-	printf("Oldest: %s\n", v[bigger].name);
-	printf("Newest: %s\n", v[lower].name);
+	printf("Oldest: %s\n", v[biggest].name);
+	printf("Newest: %s\n", v[smallest].name);
 
 	return 0;
 }
