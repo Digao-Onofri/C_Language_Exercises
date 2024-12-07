@@ -22,31 +22,21 @@ int check(char *a, char *b);
 
 int main() {
 	char *a, *b;
-	int answer = 0, i;
+	int answer = 0;
 	
-	a = (char *)malloc(50 * sizeof(char));
-	b = (char *)malloc(50 * sizeof(char));
+	a = (char *)malloc(10 * sizeof(char));
+	b = (char *)malloc(10 * sizeof(char));
 
 	if(a == NULL || b == NULL) {
 		exit(1);
 	}
 	
 	printf("Enter the first string:\n");
-	for(i = 0; i < 50; i++) {
-		scanf(" %c", (a + i));
-		if(*(a + i) == '\n') {
-			break;
-		}
-	}
-	
+	scanf(" %s", a);
+
 	printf("Enter the second string:\n");
-	for(i = 0; i < 50; i++) {
-		scanf(" %c", (b + i));
-		if(*(b + i) == '\n'){
-			break;
-		}
-	}
-	
+	scanf(" %s", b);
+
 	answer = check(a, b);
 	printf("%d\n", answer);
 
@@ -57,19 +47,14 @@ int main() {
 }
 
 int check(char *a, char *b) {
-	int i = 0, j, check = 0;
-		while(i < strlen(a)) {
-			for(j = strlen(b) - strlen(a); j < strlen(b); j++) {
-				if(*(a + i ) != *(b + j)) {
-					return 0;
-					check = 1;
-					break;
-				}
-				else i++;
-			}	
-		}
-		if(check == 0) {
-			return 1;
-		}
-	return -1;
+	int i = 0, j;
+	while(i < strlen(a)) {
+		for(j = strlen(b) - strlen(a); j < strlen(b); j++) {
+			if(*(a + i ) != *(b + j)) {
+				return 0;
+			}
+			else i++;
+		}	
+	}
+	return 1;
 }

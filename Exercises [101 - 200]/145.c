@@ -1,7 +1,7 @@
 /*
 
  	Example:  2) Make a program that receives a text file from the user and shows on the screen 
- 	how many lines this file Has. 
+ 	how many lines this file has. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -19,17 +19,16 @@
 
 int main() {
 	FILE *p = NULL;
-	char t[100], c;
-	int i = 0, idx = 0;
+	char text[100], c;
+	int idx = 0;
 	
-	printf("Enter your text: ");
-	scanf(" %[^\n]", t);
+	printf("Enter your file name: ");
+	scanf(" %s", text);
 	
-	p = fopen("arq.txt", "w");
-	if(!p) exit(1);
-	
-	fprintf(p, "%s", t);
-	fflush(p);
+	p = fopen("file.txt", "r");
+	if(!p) {
+		exit(1);
+	}
 
 	while( (c = fgetc(p)) != EOF) {
 		if(c == '\n') {

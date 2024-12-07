@@ -2,9 +2,9 @@
 
  	Example:  Make a function that takes an array of integers, their size (N), and two integer 
  	variables. Store the minimum and maximum value of the array in these variables. The main 
- 	must read N, read the vector, call the function, and print the smallest value separated from 
+ 	must read N, read the array, call the function, and print the smallest value separated from 
  	the largest by a single space. Use only pointer arithmetic, that is, make this program 
- 	without using square brackets. In Moodle, enter your full program (main + roles). 
+ 	without using square brackets.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -26,16 +26,21 @@ int main() {
 	int *a;
 	int i, n, ma, mi;
 	
+	printf("Enter the size of the array:\n");
 	scanf("%d", &n);
 	
 	a = (int *)malloc(n * sizeof(int));
+	if(a == NULL){
+		exit(1);
+	}
 	
+	printf("Enter the values of the array:\n");
 	for(i = 0; i < n; i++) {
 		scanf("%d", (a + i));
 	}
 	
-	ma = *(a + 0);
-	mi = *(a + 0);
+	ma = *a;
+	mi = *a;
 	
 	mami(a, n, ma, mi);
 	
@@ -54,5 +59,5 @@ void mami(int *a, int n, int ma, int mi) {
 		}
 	}
 	
-	printf("%d %d", mi, ma);
+	printf("Minimun: %d\nMaximum: %d\n", mi, ma);
 }
