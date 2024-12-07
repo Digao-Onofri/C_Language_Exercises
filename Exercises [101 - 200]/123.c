@@ -11,7 +11,7 @@
 
 /*
 	
-	Link for the script is on the betideo description!
+	Link for the script is on the video description!
 	Subscribe for regular content!
 
 */
@@ -72,6 +72,8 @@ int main() {
 				printf("%d ", *(bet + i));
 			}
 	}
+	
+	printf("\n");
 	
 	//free the memory that had used in the arrays
 	free(bet);
