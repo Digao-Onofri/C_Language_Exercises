@@ -51,7 +51,7 @@ int main() {
 		}
 		if(*smaller > v[i].age){
 			smallest = i;
-			smaller = &[i].age;
+			smaller = &v[i].age;
 		}
 	}
 	
