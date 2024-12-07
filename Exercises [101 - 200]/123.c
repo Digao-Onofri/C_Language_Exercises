@@ -24,7 +24,7 @@
 int main() {	
 	int i = 0, j = 0, adress = 0, check = 0, flag = 0, qtd = 0, even = 0;
 	int *bet, *p;
-	int s[25] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25};
+	int sort[25] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25};
 	
 	//allocating memory for the input array
 	bet = malloc(15 * sizeof(int));
@@ -52,12 +52,12 @@ int main() {
 		adress = rand() % 25; 
 		flag = 0;
 		for(j = 0; j <= check; j++) {
-			if(s[adress] == *(p + j)) {
+			if(sort[adress] == *(p + j)) {
 				flag = 1;
 			}
 		}
 		if(flag == 0){
-			*(p + check) = s[adress];
+			*(p + check) = sort[adress];
 			printf("%d ", *(p + check));
 			check++;	
 		}
