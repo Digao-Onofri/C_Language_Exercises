@@ -4,7 +4,7 @@
  	Then, randomly generate 15 numbers drawn. Next, check how many numbers the user matched 
  	and dynamically create an array of equal size to the number of hits. Using pointer 
  	arithmetic, store the numbers hit in this array and then show the result.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/vh-tGcCSC7Q
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
