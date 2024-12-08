@@ -4,18 +4,10 @@
  	the user informs N. Store the following information about the students: enrollment, full 
  	name, and age. Using pointer arithmetic, read the information from N students, and 
  	then show the name of the oldest student and the youngest student. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/XZgZ2pklqTc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<string.h>
 
