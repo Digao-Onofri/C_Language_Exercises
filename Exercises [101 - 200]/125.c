@@ -3,16 +3,9 @@
  	Example:  Create a program that reads the number of rows, columns, and values of an array, 
  	allocating dynamics. Next, show the smallest and largest value you typed, as well as the row 
  	and column in which you enter are. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/ZCmzl4hyWiA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<stdlib.h>
