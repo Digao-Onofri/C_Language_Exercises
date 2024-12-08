@@ -31,8 +31,9 @@ int main() {
 	if(mat == NULL){
 		exit(1);
 	}
+	
 	//allocating memory for the columns of the matrix
-	for(i = 0; i < rows; i++){
+	for(i = 0; i < col; i++){
 		mat[i] = (int *)malloc(col * sizeof(int));
 		//testing if the computer give to us the memory
 		if(mat[i] == NULL){
@@ -66,13 +67,13 @@ int main() {
 	}
 	
 	printf("Biggest value and position in the matrix are: %d [%d][%d]\n", b, brows, bcol);
-	printf("Biggest value and position in the matrix are: %d [%d][%d]\n", l, lrows, lcol);
+	printf("Lowest value and position in the matrix are: %d [%d][%d]\n", l, lrows, lcol);
 
 	//free the memory allocated
-	free(mat);
-	for(i = 0; i < rows; i++){
+	for(i = 0; i < col; i++){
 		free(mat[i]); 
 	}
+	free(mat);
 
 	return 0;
 }
