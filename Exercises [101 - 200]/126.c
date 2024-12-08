@@ -64,8 +64,8 @@ int main() {
 		}
 	}
 
-	printf("Second biggest value: %d is placed in the position [%d][%d]\n", biggest, brow, bcol);
-	printf("Second smallest value: %d is placed in the position [%d][%d]\n", smallest, srow, scol);
+	printf("Even biggest value: %d is placed in the position [%d][%d]\n", biggest, brow, bcol);
+	printf("Even smallest value: %d is placed in the position [%d][%d]\n", smallest, srow, scol);
 
 	//free the memory allocated for the columns
 	for(i = 0; i < col; i++){
