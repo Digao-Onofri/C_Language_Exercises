@@ -1,7 +1,7 @@
 /*
 
  	Example:   Make a program that receives a number, then using recursion calculate
-    the fibonacci of the term
+    	the fibonacci of the term
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
