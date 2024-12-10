@@ -1,8 +1,8 @@
 /*
 
- 	Example:  Do a function that receives three grades from a student and one letter. If the letter 
- 	is 'A', the function must calculate the arithmetic average of the student's grades; if it is 
- 	'P', it must calculate the weighted average, with weights 5, 3 and 2.
+ 	Example:  Do a function that receives three grades from a student and one letter. If 
+ 	the letter is 'A', the function must calculate the arithmetic average of the student's 
+ 	grades; if it is 'P', it must calculate the weighted average, with weights 5, 3 and 2.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	

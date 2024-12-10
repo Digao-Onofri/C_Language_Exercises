@@ -32,14 +32,14 @@ void boolean (int prime) {
 	int j, control;
 	
 	control = 1;	
-    for(j = 2; j < prime; j++) {  
-        if(prime % j == 0) {
-        	control = 0;
-        	break;
-        }
-    }
-    if(control == 1) {
-       	printf("1\n");
+    	for(j = 2; j < prime; j++) {  
+        	if(prime % j == 0) {
+        		control = 0;
+        		break;
+        	}
+    	}
+    	if(control == 1) {
+       		printf("1\n");
 	}
 	else {
 		printf("0\n");
