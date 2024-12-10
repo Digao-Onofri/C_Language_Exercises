@@ -2,17 +2,11 @@
 
  	Example:  Make a function that takes two values A and B and returns the sum of the values in 
  	the range [A, B]. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/YqgkemkPf-8
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
 
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
 #include<stdio.h>
 
 int sum(int a, int b);
