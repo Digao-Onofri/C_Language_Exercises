@@ -3,7 +3,7 @@
  	Example:  Create a program that reads the number of rows, columns, and values of an array, 
  	allocating dynamics. Next, show the smallest and the biggest even value you typed, as well 
 	as the row and column in which you enter are. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/a_-TPSHtQxk
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
