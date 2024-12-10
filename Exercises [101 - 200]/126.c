@@ -7,14 +7,6 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 
