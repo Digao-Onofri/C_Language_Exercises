@@ -2,7 +2,7 @@
 
  	Example:  Make a function that receives a date and displays it on the screen in full textual 
  	format. Example: for 01/01/2000, print: January 1, 2000. Your scanf should read the date in 
- 	dd/mm/yyyy format.
+ 	mm//dd/yyyy format.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -23,7 +23,8 @@ int main() {
 	char * answer;
 	int day, month, year;
 	
-	scanf("%d/%d/%d", &day, &month, &year);
+	printf("Enter the date: (mm/dd/yyyy)\n");
+	scanf("%d/%d/%d", &month, &day, &year);
 	
 	answer = getmonth(month);
 
