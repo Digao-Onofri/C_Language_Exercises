@@ -2,16 +2,9 @@
 
  	Example:  Create a program that allocates and reads one matrix X. Next, allocate a second 
  	matrix Y, such that Y be the transpose of X. Show the two matrices on the screen. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/1L2HRTILlyM
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<stdlib.h>
