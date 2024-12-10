@@ -3,16 +3,9 @@
  	Example:  Do a function that takes a value N and return the value of the sum of the first N 
  	terms of the series: S = 0 + 1/2! + 2/4! + 3/6! + 4/8! + ... The code must also declare a 
  	function that computes the factorial and is used by the function of the series.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/a4DSDat-pz4
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 
