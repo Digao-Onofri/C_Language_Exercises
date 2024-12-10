@@ -8,18 +8,10 @@
  	positions. • Copy the previously typed values to this new, larger area and free up the 
  	initial memory. • Repeat the procedure of dynamically expanding with 10 more values whenever 
  	the array is full. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Et0fAf5L-nA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 
