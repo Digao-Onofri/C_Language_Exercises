@@ -28,24 +28,34 @@ int main() {
 	int *new = NULL;
 	int x, i, qtd, lenght = 10;
 	
-	first = malloc(lenght * sizeof(int));
+	first = (int *)malloc(lenght * sizeof(int));
+	if(first == NULL){
+		exit(1);
+	}
 	
 	scanf("%d", &x);
 	while(x > 0) {
 		first[qtd] = x;
 		qtd++;
-		if(qtd % 10 == 0) {		
-			lenght += 10;
-			new = malloc(lenght * sizeof(int));
-			for(i = 0; i < lenght - 1; i++) {
+		if(qtd % 10 == 0) {	
+			new = (int *)malloc(lenght * sizeof(int));
+			if(new == NULL){
+				exit(1);
+			}
+			for(i = 0; i < lenght; i++) {
 				new[i] = first[i];
 			}
-			first = new;
-		
+			free(first);
+			lenght += 10;
+			first = (int *)malloc(lenght * sizeof(int));
+			if(first == NULL){
+				exit(1);
+			}
+			for(i = 0; i < lenght - 10; i++) {
+				first[i] = new[i];
+			}
 			free(new);
-			new = NULL;
 		}
-		
 		scanf("%d", &x);
 	}
 	
