@@ -3,18 +3,10 @@
  	Example:  Do a function that receives three grades from a student and one letter. If 
  	the letter is 'A', the function must calculate the arithmetic average of the student's 
  	grades; if it is 'P', it must calculate the weighted average, with weights 5, 3 and 2.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/VJrL8VrrFXQ
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 
 void arithmetic(float n1, float n2, float n3);
