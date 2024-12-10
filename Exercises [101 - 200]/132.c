@@ -2,18 +2,10 @@
 
  	Example:  Make a function that takes a value N and returns the sum of the squares of the 
  	numbers 1 to N. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/rL8ls1-MSlo
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 
 int squares(int n);
