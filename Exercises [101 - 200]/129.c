@@ -3,18 +3,10 @@
  	Example:  Make a function that receives a date and displays it on the screen in full textual 
  	format. Example: for 01/01/2000, print: January 1, 2000. Your scanf should read the date in 
  	mm//dd/yyyy format.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/expVhkFrXjM
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 
 char * getmonth(int month);
