@@ -1,6 +1,6 @@
 /*
 
- 	Example:  Make a function that takes a array of integers and their size, and returns the 
+ 	Example:  Make a function that takes an array of integers and their size, and returns the 
  	average of its elements.
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
@@ -31,7 +31,6 @@ int main() {
 	if(array == NULL){
 		exit(1);
 	}
-	
 	
 	printf("Enter %d values:\n", n);
 	for(i = 0; i < n; i++) {
