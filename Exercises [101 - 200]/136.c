@@ -2,16 +2,9 @@
 
  	Example:   Make a function that takes a number N and returns the number of prime numbers 
  	smaller than existing N. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Lv3EfDW0QhY
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 
