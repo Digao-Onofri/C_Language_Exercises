@@ -49,7 +49,7 @@ int main() {
 int check(char *a, char *b) {
 	int i = 0, j;
 	for(j = strlen(b) - strlen(a); j < strlen(b); j++) {
-		if(*(a + i) != *(b + j)) {
+		if(*(a + i ) != *(b + j)) {
 			return 0;
 		}
 		else i++;
