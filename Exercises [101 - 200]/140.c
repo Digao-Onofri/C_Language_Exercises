@@ -2,18 +2,10 @@
 
  	Example:  Make a Boolean function that takes two strings A and B, and make sure that string 
  	A is contained at the end of string B. The function must return 0 (for no) or 1 (for yes). 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/JMtUSUxQnNc
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
