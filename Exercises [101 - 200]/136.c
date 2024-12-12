@@ -33,17 +33,17 @@ int main() {
 int primes(int n) {
 	int qtd = 0, i, j, check;
 	
-	for(i = 2; i <= n; i++) {
+	for(i = 2; i <= n; i++) {  
 		check = 0;
-		for(j = 2; j <= i; j++) {
+		for(j = 2; j < i; j++) {
 			if(i % j == 0) {
 				check++;
 			}
 		}
-		if(check == 1) {
+		if(check == 0) {
 			qtd++;
 		}
 	}	
 
-	return qtd;
+	return qtd + 1;
 }
