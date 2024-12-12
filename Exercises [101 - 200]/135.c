@@ -1,16 +1,9 @@
 /*
 
  	Example:   Make a function that takes an integer and returns the sum of its digits. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/TW0HV2AJ0qk
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 
