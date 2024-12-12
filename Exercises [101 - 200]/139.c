@@ -2,18 +2,10 @@
 
  	Example:  Make a function that takes an array of integers and their size, and returns the 
  	average of its elements.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Bi-JZ37jSLw
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 
