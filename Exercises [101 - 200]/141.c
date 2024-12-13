@@ -7,16 +7,9 @@
  	if it is contained within a rectangle. The rectangle is defined by two points: the lower-
  	left vertex (v1) and the upper right vertex (v2). For all points, read the X and Y 
  	coordinates. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/rixLULL3_Es
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<stdbool.h> //true = 1 false = 0
