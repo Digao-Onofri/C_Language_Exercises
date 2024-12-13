@@ -2,18 +2,10 @@
 
  	Example: Make a program that receives a text file name from the user and shows on the 	
  	screen how many lines this file has. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/5hnXaaz-4uA
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/										
-
 #include<stdio.h>
 #include<stdlib.h>
 
