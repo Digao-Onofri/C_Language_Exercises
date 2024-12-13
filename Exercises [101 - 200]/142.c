@@ -5,16 +5,9 @@
  	main. Finally, the main prints the sum array, with one element being separated from the 
  	other by a single space. Use only pointer arithmetic, that is, make this program without 
  	using square brackets. The main must read the value N, allocate and read the two arrays.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/5M5-HdhMahI
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 #include<stdlib.h>
