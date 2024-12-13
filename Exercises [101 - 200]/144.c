@@ -2,15 +2,9 @@
 
  	Example: Make a program that receives a number, then using recursion calculate
     	the fibonacci of the number
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/wyyCzfzCz80
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
-*/
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
 */
 #include<stdio.h>
 
