@@ -1,7 +1,7 @@
 /*
 
- 	Example:  2) Make a program that receives a text file from the user and shows on the screen 
- 	how many lines this file has. 
+ 	Example: Make a program that receives a text file name from the user and shows on the 	
+ 	screen how many lines this file has. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
@@ -25,8 +25,8 @@ int main() {
 	printf("Enter your file name: ");
 	scanf(" %s", text);
 	
-	p = fopen("file.txt", "r");
-	if(!p) {
+	p = fopen(text, "r");
+	if(p == NULL) {
 		exit(1);
 	}
 

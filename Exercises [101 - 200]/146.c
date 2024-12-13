@@ -1,6 +1,6 @@
 /*
 
- 	Example:   Make a program that receives a text file from the user and shows on the screen 
+ 	Example: Make a program that receives a text file from the user and shows on the screen 
  	how many letters are vowels. 
  	Youtube lesson: 
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
@@ -15,6 +15,7 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+#include<ctype.h>
 
 int main() {
 	FILE *p = NULL;
@@ -22,13 +23,16 @@ int main() {
 	int idx;
 	
 	printf("Enter the name of your File: ");
-	scanf("%s", text);
+	scanf(" %s", text);
 	
 	p = fopen(text, "r");
 	
 	fscanf(p, "%c", &c);
 	while( !feof(p)) {
-		if(c == 'a' ||c == 'e' ||c == 'i' ||c == 'o' ||c == 'u' ) idx++;
+		c = tolower(c);
+		if( c == 'a' ||c == 'e' ||c == 'i' ||c == 'o' ||c == 'u') {
+			idx++;
+		}
 		fscanf(p, "%c", &c);
 	}
 	

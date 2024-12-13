@@ -60,7 +60,9 @@ void write () {
 
 	p = fopen("file.txt", "r");
 	
-	if(!p) exit(1);
+	if(!p){
+		exit(1);
+	}
 
 	printf("Text: \n");
 	
