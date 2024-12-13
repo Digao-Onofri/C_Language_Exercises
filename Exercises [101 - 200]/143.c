@@ -5,18 +5,10 @@
  	must read N, read the array, call the function, and print the smallest value separated from 
  	the largest by a single space. Use only pointer arithmetic, that is, make this program 
  	without using square brackets.
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/k3I0Qlz6Jss
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 
