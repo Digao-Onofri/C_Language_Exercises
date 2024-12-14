@@ -2,17 +2,10 @@
 
  	Example: Make a program that receives a text file from the user and shows on the screen 
  	how many letters are vowels. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/ZSJgliWizMU
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
