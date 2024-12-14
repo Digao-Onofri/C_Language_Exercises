@@ -7,18 +7,10 @@
 	• Close the file. 
 	Now, open and read the file, character by character, and write on the screen 
  	all the stored characters. 
- 	Youtube lesson: 
+ 	Youtube lesson: https://youtu.be/Apba-QcL5N0
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
-/*
-	
-	Link for the script is on the video description!
-	Subscribe for regular content!
-
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 
