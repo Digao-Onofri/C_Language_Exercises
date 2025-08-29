@@ -30,8 +30,8 @@ Exercises/
 ## 📄 File Structure
 ### 📌 File Name
 
-The name is always set with the exercise number in the order that I developed.
-- <01.c> 
+The name is always set with the exercise number in the order that I developed plus the standard file extention of the C programming language.
+- Example: <01.c> 
 
 ### 📌 Content Structure
 
@@ -40,6 +40,7 @@ Each file has a header with:
 - Problem statement
 - Link to specific video that I explain the solution
 - Author details
+
 Bellow the header is the solution of the problem
 
 #### ✅ Complete Example:
@@ -78,7 +79,7 @@ You can find all the solutions explained for each problem on my channel
 
 [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@RodrigoOnofri)
 
-Feel free to connect with me on my Linkedin
+Feel free to connect with me on Linkedin
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Rodrigo-Onofri)
 
