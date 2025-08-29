@@ -10,18 +10,18 @@
 #define MAX 6
 int main()
 {
-	int vector[MAX], i;
+	int array[MAX], i;
 
 	printf("Enter the %d integer values:\n", MAX);
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%d", &vector[i]);
+		scanf("%d", &array[i]);
 	}
 	
-	printf("The reverse of the vector is:\n");
+	printf("The reverse of the array is:\n");
 	
 	for(i = MAX - 1; i >= 0; i--){
-		printf("%d ", vector[i]);
+		printf("%d ", array[i]);
 	}
 	
 	printf("\n");

@@ -10,21 +10,21 @@
 #define MAX 10
 int main()
 {
-	int vector[MAX], i, even;
+	int array[MAX], i, even;
 	
 	printf("Enter %d integers:\n", MAX);
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%d", &vector[i]);
+		scanf("%d", &array[i]);
 	}
 	
 	for(i = 0, even = 0; i < MAX; i++){
-		if(vector[i] % 2 == 0){
+		if(array[i] % 2 == 0){
 			even++;
 		}
 	}
 
-	printf("Amount of even numbers in the vector is: %d\n", even);
+	printf("Amount of even numbers in the array is: %d\n", even);
 	
 	return 0;
 } 

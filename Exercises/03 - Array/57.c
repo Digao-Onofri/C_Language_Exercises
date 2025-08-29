@@ -10,24 +10,24 @@
 #define MAX 10
 int main()
 {
-	int vector[MAX], i, largest, smallest;
+	int array[MAX], i, largest, smallest;
 	
 	printf("Enter %d integers:\n", MAX);
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%d", &vector[i]);
+		scanf("%d", &array[i]);
 	}
 	
-	largest = vector[0];
-	smallest = vector[0];
+	largest = array[0];
+	smallest = array[0];
 	
 	
 	for(i = 0; i < MAX; i++){
-		if(largest < vector[i]){
-			largest = vector[i];
+		if(largest < array[i]){
+			largest = array[i];
 		}
-		if(smallest > vector[i]){
-			smallest = vector[i];
+		if(smallest > array[i]){
+			smallest = array[i];
 		}
 	}
 	

@@ -9,12 +9,11 @@
  	
 */
 #include<stdio.h>
-//start of the program
 int main()
 {
-        int n; 
+    int n; 
     
-        //ask the value of n
+    //ask the value of n
 	printf("Enter an integer value for the N: ");
 	scanf("%d", &n);
 	

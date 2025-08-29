@@ -11,21 +11,21 @@
 int main()
 {
 	int i;
-	float vector[MAX], sum;
+	float array[MAX], sum;
 	
 	printf("Enter %d real values: \n", MAX);
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%f",&vector[i]);
+		scanf("%f",&array[i]);
 	}
 	
 	for(i = 0; i < MAX; i++){
-		if(vector[i] >= 0) {
-			sum = sum + vector[i];	
+		if(array[i] >= 0) {
+			sum = sum + array[i];	
 		}
 	}
 	
-	printf("Sum of the positive numbers in the vector: %.2f\n", sum);
+	printf("Sum of the positive numbers in the array: %.2f\n", sum);
 
 	return 0;
 }

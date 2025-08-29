@@ -8,7 +8,6 @@
  	Author : Rodrigo Onofri @ www.youtube.com/@RodrigoOnofri
  	
 */
-
 #include<stdio.h>
 #define MAX 10
 int main()

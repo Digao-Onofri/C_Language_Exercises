@@ -11,16 +11,16 @@
 int main()
 {
 	int i;
-	float vector[MAX], sum = 0;
+	float array[MAX], sum = 0;
 	
 	printf("Enter the grades:\n");
 	
 	for(i = 0; i < MAX; i++){
-		scanf("%f", &vector[i]);
+		scanf("%f", &array[i]);
 	}	
 	
 	for(i = 0; i < MAX; i++){
-		sum = sum + vector[i];
+		sum = sum + array[i];
 	}
 		
 	printf("The average of the grades is: %.2f\n", sum / MAX);
