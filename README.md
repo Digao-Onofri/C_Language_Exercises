@@ -21,6 +21,7 @@ Exercises/
 ├── 05 - Structs/               # Ways to create and Use
 ├── 06 - Pointers/              # Dynamic Memory Allocation 
 ├── 07 - Functions/             # Normal and Recursive
+├── LICENSE
 └── README.md
 ```
 
