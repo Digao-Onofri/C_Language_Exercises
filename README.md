@@ -6,7 +6,7 @@ This repository contains a list of exercises about programming on C language tha
 --- 
 ## 📝 License
 
-This project follow the MIT LICENSE. Take a look in the file [LICENSE](LICENSE) for more details.
+This project follow the MIT License. Take a look in the file [LICENSE](LICENSE) for more details.
 
 ---
 
