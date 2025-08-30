@@ -1,4 +1,3 @@
-
 # C Language Exercises
 
 This repository contains a list of exercises about programming on C language that I developed during my Computer Information System course. I hope this content help you with your studies and knowledge.
@@ -38,13 +37,13 @@ The name is always set with the exercise number in the order that I developed pl
 
 Each file has a header with:
 
-- Problem statement
-- Link to specific video that I explain the solution
-- Author details
+- Problem statement.
+- Link to specific video that I explain the solution.
+- Author details.
 
-Bellow the header is the solution of the problem
+Bellow the header is the solution of the problem.
 
-#### ✅ Complete Example:
+#### ✅ Complete Example
 
 ```05.c
 /*
@@ -76,11 +75,11 @@ int main() {
 
 ## More informations 📞 
 
-You can find all the solutions explained for each problem on my channel
+You can find all the solutions explained for each problem on my channel:
 
 [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@RodrigoOnofri)
 
-Feel free to connect with me on Linkedin
+Feel free to connect with me on Linkedin:
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Rodrigo-Onofri)
 
