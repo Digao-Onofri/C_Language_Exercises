@@ -13,14 +13,15 @@ This project follow the MIT License. Take a look in the file [LICENSE](LICENSE) 
 ## 📂 Repository Structure
 
 ```bash
-Exercises/
-├── 01 - Beginner/              # If and Else
-├── 02 - Loops/                 # For, Do while and While 
-├── 03 - Arrays/                # Ordination and Comparison
-├── 04 - Strings/               # Ways to read and Handling
-├── 05 - Structs/               # Ways to create and Use
-├── 06 - Pointers/              # Dynamic Memory Allocation 
-├── 07 - Functions/             # Normal and Recursive
+C_Language_Exercises/
+├── Exercises/   
+	├── 01 - Beginner/              # If and Else
+	├── 02 - Loops/                 # For, Do while and While 
+	├── 03 - Arrays/                # Ordination and Comparison
+	├── 04 - Strings/               # Ways to read and Handling
+	├── 05 - Structs/               # Ways to create and Use
+	├── 06 - Pointers/              # Dynamic Memory Allocation 
+	└── 07 - Functions/             # Normal and Recursive
 ├── LICENSE
 └── README.md
 ```
